@@ -12,4 +12,4 @@ code.
 * templete.cpp    - Mr. Atkinson's templete file.
 
 ## Flyer
-![Alt text](Supplement-Instructions-For-COSC-1436/SI_Flyer_Fall_2017.jpg)
+![Alt text](https://github.com/MegaMan501/Supplement-Instructions-For-COSC-1436/blob/master/SI_Flyer_Fall_2017.png)
