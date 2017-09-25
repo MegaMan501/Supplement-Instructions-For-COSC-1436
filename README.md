@@ -16,4 +16,4 @@ code.
 
 ### Links
 [siLink]: https://www.tccd.edu/academics/academic-help/supplemental-instruction/
-![SupplementInstruction][siLink]
+![Supplement Instruction][siLink]
