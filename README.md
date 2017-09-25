@@ -11,5 +11,9 @@ code.
 * SI Sessions     - Code from each of the sessions held so far.
 * templete.cpp    - Mr. Atkinson's templete file.
 
-## Flyer
-![Alt text](https://github.com/MegaMan501/Supplement-Instructions-For-COSC-1436/blob/master/SI_Flyer_Fall_2017.png)
+### Flyer
+![FlyerFall2017](https://github.com/MegaMan501/Supplement-Instructions-For-COSC-1436/blob/master/SI_Flyer_Fall_2017.png)
+
+### Links
+[siLink]: https://www.tccd.edu/academics/academic-help/supplemental-instruction/
+![SupplementInstruction][siLink]
