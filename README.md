@@ -10,3 +10,6 @@ code.
 * Getting Started - Guides for how to get free software, coding on Mac, coding on Visual Studio 2017, and setting up office 365.
 * SI Sessions     - Code from each of the sessions held so far.
 * templete.cpp    - Mr. Atkinson's templete file.
+
+## Flyer
+![Alt text](SI_Flyer_Fall_2017.jpg)
