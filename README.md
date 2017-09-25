@@ -7,7 +7,6 @@ Students understand C++ Concepts through the use of example C++
 code.
 
 ### Folder Structure
-Getting Started - Guides for how to get free software, coding on Mac,
-                  coding on Visual Studio 2017, and setting up office 365.
-SI Sessions     - Code from each of the sessions held so far.
-templete.cpp    - Mr. Atkinson's templete file.
+* Getting Started - Guides for how to get free software, coding on Mac, coding on Visual Studio 2017, and setting up office 365.
+* SI Sessions     - Code from each of the sessions held so far.
+* templete.cpp    - Mr. Atkinson's templete file.
