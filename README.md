@@ -9,8 +9,10 @@ code.
 ### Folder Structure
 * Class Examples  - Source code for the examples from Mr. Atkinson's class.
 * Getting Started - Guides for how to get free software, coding on Mac, coding on Visual Studio 2017, and setting up office 365.
+* Resources       - Helpful resources for students.
 * SI Sessions     - Code from each of the sessions held so far.
 * templete.cpp    - Mr. Atkinson's templete file.
+
 
 ### Flyer
 ![FlyerFall2017](https://github.com/MegaMan501/Resources/Supplement-Instructions-For-COSC-1436/blob/master/SI_Flyer_Fall_2017.png)
