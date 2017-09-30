@@ -63,7 +63,7 @@ int main()
 	cout << "Items purchased:\n";
 	cout << setw(30) << left << "Item" << " "
 		<< setw(10) << right << "Cost" << endl; // Table header
-	for (int i = 0; i < 3; i++)
+	for (int i = 0; i < NUM_ITEMS; i++)
 		cout << setw(30) << left << itemNames[i] << "$"
 		<< setw(10) << right << itemCost[i] << endl;
 	cout << setw(30) << left << "Total Cost" << "$"
