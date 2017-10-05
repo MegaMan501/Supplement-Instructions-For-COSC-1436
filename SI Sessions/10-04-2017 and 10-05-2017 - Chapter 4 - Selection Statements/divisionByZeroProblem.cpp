@@ -31,7 +31,7 @@ int main()
   // else divid num1 by num2 to get the quotient
   // then print out the quotient of num1 divided by num2 with
 
-  
+
 
 
 
