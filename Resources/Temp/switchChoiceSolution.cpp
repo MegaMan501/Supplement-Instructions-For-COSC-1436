@@ -21,9 +21,11 @@ int main()
     case 'B': cout << cout << "You entered B.\n";
       break;
     case 'c':
-    case 'C': cout << cout << "You entered Cs.\n";
+    case 'C': cout << cout << "You entered C.\n";
       break;
-    default: cout << "That is an invalid choice.\n";
+    default:
+      cout << "That is an invalid choice.\n";
+      break;
   }
 
   system("PAUSE");
