@@ -22,8 +22,13 @@ int main()
       break;
     case 'c':
     case 'C': cout << cout << "You entered C.\n";
+<<<<<<< HEAD
+=======
       break;
-    default: cout << "That is an invalid choice.\n";
+    default:
+      cout << "That is an invalid choice.\n";
+>>>>>>> d4bf9e7aa002ca600a4d2827b20c1b74be8ff6ad
+      break;
   }
 
   system("PAUSE");
