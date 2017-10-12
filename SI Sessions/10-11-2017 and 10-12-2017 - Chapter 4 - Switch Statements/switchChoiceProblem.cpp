@@ -9,7 +9,7 @@ int main()
 
   cout << "Enter A, B, or C: ";
   cin >> choice;
-  
+
   switch (choice)
   {
     case 'A':
@@ -25,9 +25,6 @@ int main()
       cout << "You did not enter A, B, or C!\n";
 
   }
+  
   return 0;
-
-
-
-
 }
