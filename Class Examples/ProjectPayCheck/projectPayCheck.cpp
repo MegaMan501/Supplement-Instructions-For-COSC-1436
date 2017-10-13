@@ -1,10 +1,10 @@
 /******************************
    Name: Mohamed Rahaman
    Date: September 28, 2017
-   File: main.cpp
-   Description: Calculate the 
-   gross pay based on hourly 
-   rate and hours worked. 
+   File: projectPayCheck.cpp
+   Description: Calculate the
+   gross pay based on hourly
+   rate and hours worked.
 ********************************/
 
 // Headers
@@ -15,14 +15,14 @@ using namespace std;
 
 // Global variables
 const double REGULAR_TIME_MAX = 40.0;	// max hours before overtime
-const double OVERTIME_FACTOR = 1.5;		// multipler on over time 
+const double OVERTIME_FACTOR = 1.5;		// multipler on over time
 
 // Function declarations
 string getEmployeeName();
 double getHoursWorked();
 double getHourlyWage();
-double calculateRegTimeWage(double totalHoursWorked, 
-							double hourlyWage, 
+double calculateRegTimeWage(double totalHoursWorked,
+							double hourlyWage,
 							double regTimeMax);
 double calculateOverTimeWage(double totalHoursWorked,
 							 double hourlyWage,
@@ -42,16 +42,16 @@ int main()
 
 	// Get the name of the employee
 	employeeName = getEmployeeName();
-    
+
 	// Get the hourly wage
-	cout << endl; 
+	cout << endl;
 	hourlyWage = getHourlyWage();
 
 	// Get the number of hours worked per a week
 	cout << endl;
 	hoursWorked = getHoursWorked();
 
-	// Get the total wage 
+	// Get the total wage
 	totalWage = calculateTotalWage(hoursWorked, hourlyWage,
 									REGULAR_TIME_MAX, OVERTIME_FACTOR);
 
@@ -68,7 +68,7 @@ int main()
 	//	The following is system dependent.  It will only work on Windows
     system("PAUSE");
 
-	/* 
+	/*
 	// A non-system dependent method is below
 	cout << "Press any key to continue";
 	cin.get();
@@ -91,7 +91,7 @@ double getHoursWorked()
 {
 	double hours = 0.0;	// Hours input from user
 	cout << "Enter the total hours worked: ";
-	cin >> hours; 
+	cin >> hours;
 
 	return static_cast<double>(hours);
 }
@@ -101,17 +101,17 @@ double getHourlyWage()
 {
 	double wage = 0.0;		// Hourly wage
 	cout << "Enter the hourly wage: ";
-	cin >> wage; 
+	cin >> wage;
 
 	return static_cast<double>(wage);
 }
 
-// Calculate regular wage 
+// Calculate regular wage
 double calculateRegTimeWage(double totalHoursWorked, double hourlyWage, double regTimeMax)
 {
 	if (totalHoursWorked > regTimeMax)
 	{
-		return regTimeMax * regTimeMax; 
+		return regTimeMax * regTimeMax;
 	}
 	else
 	{
@@ -132,10 +132,10 @@ double calculateOverTimeWage(double totalHoursWorked, double hourlyWage, double 
 	}
 }
 
-// Calculates the total wage from regular time 
+// Calculates the total wage from regular time
 // and overtime
 double calculateTotalWage(double totalHoursWorked, double hourlyWage, double regTimeMax, double otFactor)
 {
-	return  calculateRegTimeWage(totalHoursWorked,hourlyWage, REGULAR_TIME_MAX) + 
+	return  calculateRegTimeWage(totalHoursWorked,hourlyWage, REGULAR_TIME_MAX) +
 		calculateOverTimeWage(totalHoursWorked, hourlyWage, REGULAR_TIME_MAX, otFactor);
 }
