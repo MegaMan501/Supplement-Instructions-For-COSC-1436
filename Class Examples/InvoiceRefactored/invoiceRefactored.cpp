@@ -1,7 +1,7 @@
 /******************************
    Name: Mohamed Rahaman
    Date: September 28, 2017
-   File: main.cpp
+   File: invoiceRefactored.cpp
    Description: This program will ask the user for her name, ask for the names
    and cost of three items then calculate the total.
 ********************************/
