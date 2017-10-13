@@ -56,5 +56,6 @@ void main()
 	cout << "Press any key to continue";
 	cin.get();
 	*/
-    //return 0;
+	
+    return 0;
 }

@@ -48,4 +48,7 @@ int main()
     cout << "You qualify.\n";
   }
 
+  system("PAUSE");
+  
+  return 0;
 }
