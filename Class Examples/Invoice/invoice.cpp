@@ -1,7 +1,7 @@
 /******************************
    Name: Mohamed Rahaman
    Date: September 21, 2017
-   File: main.cpp
+   File: invoice.cpp
    Description: This program will ask the user for her name, ask for the names
    and cost of three items then calculate the total.
 ********************************/
@@ -46,14 +46,14 @@ int main()
 	cout << "Cost of " << itemNames[2] << ": $";
 	cin >> itemCost[2];
 
-	// Calculate total and Average cost of items (In class example)
 	/*
-		totalItemCost = itemCost[0] + itemCost[1] + itemCost[2];
-		averageItemCost = totalItemCost / NUM_ITEMS;
+	// Calculate total and Average cost of items (In class example)
+	totalItemCost = itemCost[0] + itemCost[1] + itemCost[2];
+	averageItemCost = totalItemCost / NUM_ITEMS;
 	*/
 
-	// Calculate total and Average cost of items (Alternate example)
-	for (int i = 0; i < NUM_ITEMS; i++)
+	// Calculate total and Average cost of items (Alternate example, using loops)
+	for (int i = 0; i < NUM_ITEMS; i++)	// This is just iterating the next lines statement for 3 times.
 		totalItemCost += itemCost[i];
 	averageItemCost = totalItemCost / NUM_ITEMS;
 
@@ -75,7 +75,8 @@ int main()
 	// Make sure we place the end message on a new line
         cout << endl;
 
-	//system("PAUSE");
+	system("PAUSE");
+
 	// A non-system dependent method is below
 	//cout << "\nPress any key to continue...";
 	//cin.get();
