@@ -19,7 +19,6 @@ int main()
 {
 	//	Your code goes here
 
-
 	//	Make sure we place the end message on a new line
     cout << endl;
 
