@@ -1,8 +1,8 @@
 /******************************
-   Name
-   Date
-   File Name template.cpp
-   Description
+    Name:
+    Date:
+    File: template.cpp
+    Description:
 ********************************/
 
 // Headers
@@ -18,18 +18,17 @@ using namespace std;
 int main()
 {
 	//	Your code goes here
-    
-    
+
+
 	//	Make sure we place the end message on a new line
     cout << endl;
 
 	//	The following is system dependent.  It will only work on Windows
     system("PAUSE");
 
-	/* 
 	// A non-system dependent method is below
-	cout << "Press any key to continue";
-	cin.get();
-	*/
+	// cout << "Press any key to continue";
+	// cin.get();
+
     return 0;
 }
