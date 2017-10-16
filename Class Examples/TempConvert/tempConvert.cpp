@@ -17,7 +17,7 @@ const string MONTHS[] = {"Jan","Feb","Mar","Apr",
 						 "May","Jun","Jul","Aug",
 						 "Sep","Oct","Nov","Dec"};
 
-void main()
+int main()
 {
 	int month,		// month number ( 1 - Jan, 12 - Dec)
 		day,		// day of the month (1 througth 31)
@@ -56,6 +56,6 @@ void main()
 	cout << "Press any key to continue";
 	cin.get();
 	*/
-	
+
     return 0;
 }

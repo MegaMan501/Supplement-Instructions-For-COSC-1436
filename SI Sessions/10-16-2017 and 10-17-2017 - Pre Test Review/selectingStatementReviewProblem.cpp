@@ -91,7 +91,7 @@ void ifStatement()
       statement;
   */
   cout << "\nStart of If statemet.\n";
-  
+
 }
 
 // Give an example of an expanded if statement
@@ -137,7 +137,7 @@ void ifElseStatement()
 void ifElseIfStatement()
 {
   /*
-    // This is a If\Else if Statement Structure
+    // This is a If/Else if Statement Structure
     if( expression )
     {
       statement1;
