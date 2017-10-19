@@ -103,7 +103,7 @@ void displayInvoice(string custName, string names[], double cost[], int size)
 	cout << "Items purchased:\n";
 	cout << setw(30) << left << "Item" << " "
 		<< setw(10) << right << "Cost" << endl; // Table header
-	for (int i = 0; i < 3; i++)
+	for (int i = 0; i < size; i++)
 		cout << setw(30) << left << names[i] << "$"
 		<< setw(10) << right << cost[i] << endl;
 	cout << setw(30) << left << "Total Cost" << "$"
