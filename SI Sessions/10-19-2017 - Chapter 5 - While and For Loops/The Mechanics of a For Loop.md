@@ -20,4 +20,4 @@ for (initialization; test; update)
 ````
 
 ## General Flowchart of `for loop`
-![alt text](http://www.functionx.com/flowcharts/if.gif "General Structure of For Loops")
+![alt text](http://www.functionx.com/cpp/images/flowchart11.gif "General Structure of For Loops")
