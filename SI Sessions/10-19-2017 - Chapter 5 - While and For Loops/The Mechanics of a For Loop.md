@@ -1,4 +1,4 @@
-#The Mechanics of a `for loop`
+# The Mechanics of a `for loop`
 
 1. Perform `initialization`.
 2. Evaluate `test` expression
