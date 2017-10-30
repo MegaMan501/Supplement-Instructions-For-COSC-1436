@@ -1,4 +1,4 @@
-# Covert the loops.
+# Covert the loops:
 
 1. Convert the following while loop to a do-while loop:
 
