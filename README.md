@@ -7,11 +7,12 @@ Students understand C++ Concepts through the use of example C++
 code.
 
 ### Folder Structure
-* Class Examples  - Source code for the examples from Mr. Atkinson's class.
-* Getting Started - Guides for how to get free software, coding on Mac, coding on Visual Studio 2017, and setting up office 365.
-* Resources       - Helpful resources for students.
-* SI Sessions     - Code from each of the sessions held so far.
-* templete.cpp    - Mr. Atkinson's templete file.
+* Class Examples        - Source code for the examples from Mr. Atkinson's class.
+* Getting Started       - Guides for how to get free software, coding on Mac, coding on Visual Studio 2017, and setting up office 365.
+* Resources             - Helpful resources for students.
+* SI Sessions           - Code from each of the sessions held so far.
+* template.cpp          - Mr. Atkinson's template file, with error handling template.
+* templateOriginal.cpp  - Mr. Atkinson's original template file.
 
 
 ### Flyer
@@ -21,4 +22,4 @@ code.
 [Supplement Instruction link](https://www.tccd.edu/academics/academic-help/supplemental-instruction/)
 
 If you have any questions please email me at:
-[mohamed.rahaman@my.tccd.edu](mohamed.rahaman@my.tccd.edu)
+<a href="mailto:mohamed.rahaman@my.tccd.edu?Subject=About%Supplemental%Instuction">mohamed.rahaman@my.tccd.edu</a>
