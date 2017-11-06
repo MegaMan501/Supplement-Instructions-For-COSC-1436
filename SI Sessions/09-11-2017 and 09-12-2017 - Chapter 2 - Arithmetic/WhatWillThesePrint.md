@@ -1,6 +1,7 @@
-// What will these print out on to the console?
+# What will these print out on to the console?
 
-//A)
+1.
+```c++
 #include <iostream>
 using namespace std;
 
@@ -12,8 +13,11 @@ int main()
   cout << freeze << endl << boil << endl;
   return 0;
 }
+```
 
-//B)
+2.
+
+```c++
 #include <iostream>
 using namespace std;
 
@@ -24,8 +28,9 @@ int main()
   cout << x << endl << y << endl;
   return 0;
 }
-
-//C)
+```
+3.
+```c++
 #include <iostream>
 using namespace std;
 
@@ -37,3 +42,4 @@ int main()
   cout << "you.";
   return 0;
 }
+```

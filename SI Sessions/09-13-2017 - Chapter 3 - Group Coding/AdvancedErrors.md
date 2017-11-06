@@ -1,7 +1,10 @@
+# Code Up a Corrected Version of This Code.
+
+```c++
 /*
 * This program calculates the area of a circle.
 * The formula for the area of a circle is Pi times
-*  the radius squared. Pi is 3.14159.
+* the radius squared. Pi is 3.14159.
 */
 #includes <iostreams>
 using namespace std;
@@ -26,3 +29,4 @@ int main()
   system("wait");
   return 0;
 }
+```

@@ -2,6 +2,7 @@
 // from a number.
 #include <iostream>
 using namespace std;
+
 int main()
 {
   int number = 65;
@@ -11,6 +12,6 @@ int main()
   // Display the value of number converted to
   // the char data type.
 
-  
+
   return 0;
 }

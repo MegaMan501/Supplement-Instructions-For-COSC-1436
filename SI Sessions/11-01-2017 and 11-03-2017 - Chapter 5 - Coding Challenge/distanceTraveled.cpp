@@ -12,12 +12,12 @@ void pause();
 
 int main()
 {
-	bool status = true;				
-	int hours = 0,					
-	    speed = 0;					
-	double distanceImperial = 0.0,			
-	       distanceMetric = 0.0;			
-	
+	bool status = true;
+	int hours = 0,
+	    speed = 0;
+	double distanceImperial = 0.0,
+	       distanceMetric = 0.0;
+
 	do
 	{
 		cout << "What is the speed of the vehicle in mph? (As integer): ";
@@ -65,5 +65,5 @@ bool isNegative(int num)
 void pause()
 {
 	cout << "\n\nPress any key to continue....";
-	cin.get();
+	cin.ignore().get();
 }

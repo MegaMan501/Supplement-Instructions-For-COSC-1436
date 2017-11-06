@@ -2,8 +2,8 @@
 Name: Mohamed Rahaman
 Date: October 31, 2017
 File: main.cpp
-Description: 
-Display average, max, min for 
+Description:
+Display average, max, min for
 high temps of various months.
 ********************************/
 
@@ -18,7 +18,7 @@ using namespace std;
 // Global variables
 const int MAX_MONTH		= 12;							// Maximum months we are will to process
 const int MAX_DAYS		= 30;							// Maximum days per month we will process
-const string FILENAME		= "HighTemps2014.txt";					// File to open
+const string FILENAME	= "HighTemps2014.txt";			// File to open
 
 // Template Function
 template <typename T>
@@ -36,10 +36,10 @@ int getLongestNameLength ( string months[], int monthCount );
 int main()
 {
 	int monthCount = 0;								// number of months processed
-	int temps[MAX_MONTH][MAX_DAYS];							// table of temps
-	string months[MAX_MONTH];							// list of month names
+	int temps[MAX_MONTH][MAX_DAYS];					// table of temps
+		string months[MAX_MONTH];					// list of month names
 	char choice;									// holds user's choice
-	
+
 	// Get months and temps
 	monthCount = loadMonthsTemps(months, temps, FILENAME, MAX_MONTH);
 
@@ -53,10 +53,10 @@ int main()
 			<< "\t3. Display Minimum Temperature\n"
 			<< "\t4. Quit\n"
 			<< "\n\tEnter your choice (1-4): ";
-		cin >> choice; 
+		cin >> choice;
 
 		while (getchar() != '\n'); // Flush the stream
-		
+
 		// Process the choice
 		switch (choice)
 		{
@@ -133,7 +133,7 @@ int loadMonthsTemps(string months[], int temps[][MAX_DAYS], string filename, int
 {
 	ifstream inFile;								// Input file stream
 	string monthName,								// Name of the month
-		seasonName;								// Name of season
+		seasonName;									// Name of season
 	int numMonths = 0;								// Number of months actually read
 
 	// Open the file
@@ -146,7 +146,7 @@ int loadMonthsTemps(string months[], int temps[][MAX_DAYS], string filename, int
 	}
 
 	// Loop through each row
-	for (int i = 0; 
+	for (int i = 0;
 		i < MAX_MONTH && (inFile >> monthName >> seasonName);
 		i++, numMonths++)
 	{
@@ -157,11 +157,11 @@ int loadMonthsTemps(string months[], int temps[][MAX_DAYS], string filename, int
 		}
 
 		// Combine the month name with the season name
-		months[i] = monthName + " " + seasonName; 
+		months[i] = monthName + " " + seasonName;
 	}
 
 	// Close the file
-	inFile.close(); 
+	inFile.close();
 
 	// Test
 	/*for (int i = 0; i < numMonths; i++)
@@ -180,8 +180,8 @@ int loadMonthsTemps(string months[], int temps[][MAX_DAYS], string filename, int
 // Calcualate the average and display the average temperature
 void displayAvgTemp(string months[], int temps[][MAX_DAYS], int monthCount)
 {
-	double average;							// average temp of days in month
-	int total;							// total of all temps (accumulator)
+	double average;												// average temp of days in month
+	int total;													// total of all temps (accumulator)
 	int maxLength = getLongestNameLength(months, monthCount);	// Get longest name
 
 	// Setup table header
@@ -200,9 +200,9 @@ void displayAvgTemp(string months[], int temps[][MAX_DAYS], int monthCount)
 		{
 			total += temps[i][j];
 		}
-		average = static_cast<double>(total) / MAX_DAYS; 
+		average = static_cast<double>(total) / MAX_DAYS;
 		cout << setw(8) << right << average
-			<< setw(12) << getTempCondition(static_cast<int>(average)) << endl; 
+			<< setw(12) << getTempCondition(static_cast<int>(average)) << endl;
 	}
 
 }
@@ -210,15 +210,15 @@ void displayAvgTemp(string months[], int temps[][MAX_DAYS], int monthCount)
 // Calcualate the maximum and display the maximum temperature
 void displayMaxTemp(string months[], int temps[][MAX_DAYS], int monthCount)
 {
-	int maxTemp;							// max temp
+	int maxTemp;												// max temp
 	int maxLength = getLongestNameLength(months, monthCount);	// Get longest name
 
 	// Setup the header
-	cout << fixed << showpoint << setprecision(1); 
+	cout << fixed << showpoint << setprecision(1);
 	cout << setw(maxLength + 1) << left << "Month"
 		<< setw(4) << right << "Max"
-		<< setw(12) << "Condition" << endl; 
-	cout << "-------------------------------\n"; 
+		<< setw(12) << "Condition" << endl;
+	cout << "-------------------------------\n";
 
 	// loop through each row
 	for (int i = 0; i < monthCount; i++)
@@ -238,7 +238,7 @@ void displayMaxTemp(string months[], int temps[][MAX_DAYS], int monthCount)
 // Calcualate the minimum and display the minimum temperature
 void displayMinTemp(string months[], int temps[][MAX_DAYS], int monthCount)
 {
-	int minTemp;							// max temp
+	int minTemp;												// max temp
 	int maxLength = getLongestNameLength(months, monthCount);	// Get longest name
 
 	// Setup the header

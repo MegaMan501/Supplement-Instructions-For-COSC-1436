@@ -1,3 +1,6 @@
+# Figure What is wrong with this example.
+
+```
 */ What's wrong with this program? /*
 #include iostream
 using namespace std;
@@ -10,3 +13,4 @@ int main();
   Cout < "The value of c is %d" < C;
   return 0;
 {
+```

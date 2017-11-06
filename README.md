@@ -23,11 +23,12 @@ code.
 
 
 ## Marketing
-![FlyerFall2017](https://github.com/MegaMan501/Supplement-Instructions-For-COSC-1436/blob/master/Resources/Marketing/SI_Flyer_Fall_2017.png)
+![FlyerFall2017](/Resources/Marketing/SI_Flyer_Fall_2017.png)
 
 ### Links
 [Supplement Instruction link](https://www.tccd.edu/academics/academic-help/supplemental-instruction/)
 
 ### Contact
 If you have any questions please email me at:
+
 <a href="mailto:mohamed.rahaman@my.tccd.edu?Subject=About%Supplemental%Instuction">mohamed.rahaman@my.tccd.edu</a>

@@ -15,9 +15,9 @@ for (initialization; test; update)
     statement2;
     .
     .
-    statementn;
+    statementn; 
 }
 ````
 
 ## General Flowchart of `for loop`
-![alt text](http://www.functionx.com/cpp/images/flowchart11.gif "General Structure of For Loops")
+![alt text](/Resources/Pictures/forLoop.svg)

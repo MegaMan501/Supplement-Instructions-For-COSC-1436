@@ -36,7 +36,7 @@ int main()
 void moreOverAndUnder()
 {
   cout << "\nStart of moreOverAndUnder Function\nHit Enter...";
-  cin.get();
+  cin.ignore().get();
 
   float test;
   test = 2.0e38 * 1000;
