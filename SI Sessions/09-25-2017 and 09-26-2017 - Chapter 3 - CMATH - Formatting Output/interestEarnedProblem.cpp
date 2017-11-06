@@ -3,12 +3,9 @@
   to give you the amount in your savings.
 */
 #include <iostream>
-
-
-
 using namespace std;
 
-double main()
+int main()
 {
   int timesCompounded = 0.0;
   double interestRate = 0.0, interest = 0.0, amount = 0.0;
@@ -34,5 +31,5 @@ double main()
   cout << "Principal:         " << setw(10) << "$ " << principal << endl;
   cout << "Amount in Savings: " << setw(10) << "$ " << amount << endl;
 
-  return 0.0;
+  return 0;
 }
