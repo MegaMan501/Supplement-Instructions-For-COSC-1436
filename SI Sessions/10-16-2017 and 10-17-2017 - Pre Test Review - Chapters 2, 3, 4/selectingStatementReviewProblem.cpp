@@ -191,5 +191,5 @@ void switchStatement()
 void pause()
 {
   cout << "\nPlease Press enter to continue...";
-  cin.get();
+  cin.ignore().get();
 }
