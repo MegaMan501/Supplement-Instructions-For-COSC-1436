@@ -1,4 +1,3 @@
-// This program lets the user enter a filename.
 #include <iostream>
 #include <string>
 #include <fstream>
