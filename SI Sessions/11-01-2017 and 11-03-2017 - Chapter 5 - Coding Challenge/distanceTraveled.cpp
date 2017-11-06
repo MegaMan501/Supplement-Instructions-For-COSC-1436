@@ -5,8 +5,10 @@
 #include <iomanip>
 using namespace std;
 
+// Global Variables
 const double CONVERSION_FACTOR = 0.621371;
 
+// Functions
 bool isNegative(int num);
 void pause();
 
