@@ -1,4 +1,4 @@
-# Range Base **for** loops ( Similar to **foreach**)
+# Range Base **for** loops
 
 ### What is a range base for loop?
 
