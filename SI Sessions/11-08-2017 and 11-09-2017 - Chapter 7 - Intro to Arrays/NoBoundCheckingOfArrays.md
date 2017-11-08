@@ -1,6 +1,6 @@
 # No Bound Checking in C++ for Arrays
 
-## Why is this code bad?
+## 1. Why is this code bad?
 
 ```c++
 #include <iostream>
@@ -28,4 +28,6 @@ int main()
 }
 ```
 
-## What would you do to fix it? 
+## 2. What would you do to fix it?
+
+## 3. Why does `C++` not have bound checking?
