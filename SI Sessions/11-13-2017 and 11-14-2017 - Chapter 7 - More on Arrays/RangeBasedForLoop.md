@@ -17,4 +17,4 @@ to a variable.
     }
 ```
 
-** *The range-based for loop was introduced in C++ 11.* **
+***The range-based for loop was introduced in C++ 11.***
