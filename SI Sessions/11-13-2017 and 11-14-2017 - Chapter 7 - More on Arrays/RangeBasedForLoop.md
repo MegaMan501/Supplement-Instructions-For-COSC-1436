@@ -4,7 +4,7 @@
 
 The range-based **for** loop is a loop that iterates once for each element in
 an array. Each time the loop iterates, it copies an element from the array
-to a variable. The range-based for loop was introduced in C++ 11.
+to a variable.
 
 ## Can you give an example?
 
@@ -16,3 +16,5 @@ to a variable. The range-based for loop was introduced in C++ 11.
         /*What Goes Here?*/
     }
 ```
+
+** *The range-based for loop was introduced in C++ 11.* **
