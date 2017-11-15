@@ -19,6 +19,7 @@ code.
 | Files:                | Description:                                                  |
 |---                    | ---                                                           |
 | template.cpp          | Mr. Atkinson's template file, with error handling template.   |
+| templateModified.cpp  | My modification of Mr. Atkinson's template file.              |
 | templateOriginal.cpp  | Mr. Atkinson's original template file.                        |
 
 
@@ -30,5 +31,4 @@ code.
 
 ### Contact
 If you have any questions please email me at:
-
-<a href="mailto:mohamed.rahaman@my.tccd.edu?Subject=About%Supplemental%Instuction">mohamed.rahaman@my.tccd.edu</a>
+<br><a href="mailto:mohamed.rahaman@my.tccd.edu?Subject=About%Supplemental%Instuction">mohamed.rahaman@my.tccd.edu</a>
