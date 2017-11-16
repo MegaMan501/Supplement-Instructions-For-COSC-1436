@@ -78,7 +78,7 @@ int main()
 	srand(unsigned(time(0)));
 
 	// Loop for individual simulations
-	do
+	while(true)
 	{
 		// Present the menu
 		cout << "Select starting Grid\n";
@@ -135,8 +135,43 @@ int main()
 			SetConsoleMode(hStdin, ENABLE_WINDOW_INPUT | 
 								   ENABLE_MOUSE_INPUT | 
 								   ENABLE_EXTENDED_FLAGS);
-		}
-	} while (choice == 'Y' || choice == 'y'); // end of do-while
+
+			// Take a nap
+			this_thread::sleep_for(chrono::milliseconds(500));
+
+			if (!liveCell) break;
+
+			// Check if we clicked the mouse
+			mouseClick = false; 
+			bool peeked = PeekConsoleInput(hStdin, &irInBut,
+											1, &cNumRead);
+
+			if (peeked)
+			{
+				if (irInBut.EventType == MOUSE_EVENT &&
+					irInBut.Event.MouseEvent.dwButtonState ==
+					FROM_LEFT_1ST_BUTTON_PRESSED)
+				{
+					mouseClick = true; 
+					irInBut.EventType = 0; 
+				}
+			}
+
+			FlushConsoleInputBuffer(hStdin);
+
+			if (mouseClick) break;
+		} // simulate while loop
+
+		SetConsoleMode(hStdin, fdwSaveOldMode);
+
+		drawGrid(gameGrid, GRID_ROWS);
+		if (!mouseClick)
+			cout << "All cells are dead\n";
+
+		cout << endl;
+		system("pause");
+
+	} // outer while
 
 	//	Make sure we place the end message on a new line
 	cout << endl;
@@ -180,30 +215,166 @@ T getValidatedInput()
 	return result;
 }
 
-void loadStartingPositions(vector<LifeGrid>& startGrid, vector<string>& startingNames, string fileName)
+// Load the starting positions of life grid
+void loadStartingPositions(vector<LifeGrid>& startGrid, 
+						   vector<string>& startingNames, 
+							string fileName)
 {
+	ifstream inFile;	// stream to file
+	string gridName;	// name of grid configuration
+	LifeGrid lifeGrid;	// holds a particular configuration
+	char mark;			// used to hold symbol for alive
+
+	inFile.open(fileName);
+	if(!inFile)
+	{
+		cout << "Cannot open file";
+		system("pause");
+		exit(EXIT_FAILURE);
+	}
+	
+	while (getline(inFile,gridName))
+	{
+		startingNames.push_back(gridName);			// Saves the starting name
+		for (int i = 0; i < GRID_ROWS; i++)			// i is a row
+		{
+			for (int j = 0; j < GRID_COLUMNS; j++)	// j is a column
+			{
+				inFile >> mark;
+				lifeGrid.grid[i][j].futureAlive = false; 
+				if (mark == 'O')
+				{
+					lifeGrid.grid[i][j].currentAlive = true; 
+				}
+				else
+				{
+					lifeGrid.grid[i][j].currentAlive = false; 
+				}				
+			}	// end of inner for loop
+		}	// end of outer for loop
+		
+		startGrid.push_back(lifeGrid);
+		
+		if (inFile.peek() == '\n')
+			inFile.get(); 
+	
+	}	// end of while loop
+	
+	inFile.close(); 
 }
 
-void initializeGrid(Life grid[][GRID_COLUMNS], int numRows, int capacityFull)
+// initialize the grid randomly 
+void initializeGrid(Life grid[][GRID_COLUMNS], 
+					int numRows, int capacityFull)
 {
+	for (int row = 0; row < numRows; row++)
+	{
+		for (int col = 0; col < GRID_COLUMNS; col++)
+		{
+			if (rand() % 100 < capacityFull)
+				grid[row][col].currentAlive = true;
+			else
+				grid[row][col].currentAlive = false;
+			grid[row][col].futureAlive = false; 
+		}
+	}
 }
 
-void initializeGrid(Life grid[][GRID_COLUMNS], const vector<LifeGrid>& startGrid, int numRows, int gridNum)
+// initialize grid with a particular life grid configuration
+void initializeGrid(Life grid[][GRID_COLUMNS], 
+					const vector<LifeGrid>& startGrid, 
+					int numRows, int gridNum)
 {
+	for (int row = 0; row < numRows; row++)
+	{
+		for (int col = 0; col < GRID_COLUMNS; col++)
+		{
+			grid[row][col].currentAlive = 
+				startGrid[gridNum].grid[row][col].currentAlive;
+			grid[row][col].futureAlive = false; 
+		}
+	}
 }
 
+// update the grid
 int updateGrid(Life grid[][GRID_COLUMNS], int numRows)
 {
-	return 0;
+	const int STAY_ALIVE = 2;	// min cells to stay alive
+	const int DIE = 4;			// min cells to die
+	const int BORN = 3;			// cell need to be born
+
+	int liveCells = 0;	
+	int neighbors = 0; 
+
+	// Pass 1 which cells will live, die, and be born
+	for (int row = 0; row < numRows; row++)
+	{
+		for (int col = 0; col < GRID_COLUMNS; col++)
+		{
+			neighbors = 0; 
+			for (int nRow = row - 1; nRow < row + 2; nRow++)
+			{
+				for (int nCol = col; nCol < col + 1; nCol++)
+				{
+					if ((nRow != row || nCol != col) &&
+						grid[clampAround(nRow, 0, GRID_ROWS - 1)][clampAround(nCol, 0, GRID_COLUMNS - 1)].currentAlive)
+					{
+						neighbors++;
+					}
+				}
+			} // end subgrid (local world)
+			if (neighbors < STAY_ALIVE)
+				grid[row][col].futureAlive = false;
+			else if (neighbors == DIE)
+				grid[row][col].futureAlive = false;
+			else if (neighbors == BORN)
+				grid[row][col].futureAlive = true;
+			else
+				grid[row][col].futureAlive = true;
+		}
+	}	// end of pass 1
+
+	return liveCells;
 }
 
+// draw the grid
 void drawGrid(Life grid[][GRID_COLUMNS], int numRows)
 {
+	// clear the screen
+	system("CLS");
+
+	// draw each grid with a border
+	for (int i = 0; i < GRID_COLUMNS + 2; i++)
+		cout << "-";
+	cout << endl; 
+
+	// display the grid
+	for (int row = 0; row < numRows; row++)
+	{
+		for (int col = -1; col < GRID_COLUMNS + 1; col++)
+		{
+			if (col == -1 || col == GRID_COLUMNS)
+				cout << "|";
+			else
+			{
+				if (grid[row][col].currentAlive)
+					cout << "o";
+				else
+					cout << " ";
+			}
+		}	// end of inner loop
+		cout << endl;
+
+	}// end of outer loop
+	for (int i = 0; i < GRID_COLUMNS + 2; i++)
+		cout << "-";
+	cout << endl;
+	
 }
 
-// If num is between min and max, keep it there
-// if num is larger than max, make it min
-// if num is smaller than min, make it max
+//If num is between min and max, keep it there
+//if num is larger than max, make it min
+//if num is smaller than min, make it max
 int clampAround(int num, int min, int max)
 {
 	//if (num < min) num = max - 1; 
