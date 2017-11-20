@@ -33,7 +33,7 @@ int main()
 // A non-system dependent method to pause the console
 void pause()
 {
-	cout << "\n\nPress any key to continue....";
+	cout << "\n\nPress enter to continue....";
 	cin.ignore().get();
 }
 
