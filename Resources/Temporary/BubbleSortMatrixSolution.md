@@ -2,13 +2,10 @@
 
 ## Solution:
 
-### 1. Variables:
 ```c++
     const int SIZE = 5;
     int unsortedArray[] = { 7, 2, 3, 8, 9, 1 };
 ```  
-
-### 2. Matrix:  
 
 | Steps: | Element 0 | Element 1 | Element 2 | Element 3 | Element 4 | Element 5 |
 | --- | --- | --- | --- | --- | --- | --- |
