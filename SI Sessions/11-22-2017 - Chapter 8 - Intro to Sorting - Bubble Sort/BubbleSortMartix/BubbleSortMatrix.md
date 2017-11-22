@@ -12,7 +12,7 @@ Complete the given Step-Wise Matrix.
 ```  
 
 | Steps:  | Element 0 | Element 1 | Element 2 | Element 3 | Element 4 | Element 5 |
-| --- | --- |
+| ---     | ---       | ---       | ---       |  ---      | ---       | ---       |
 | __(1)__ | 7         | 2         | 3         | 8         | 9         | 1         |
 | __(2)__ | -         | -         | -         | -         | -         | -         |
 | __(3)__ | -         | -         | -         | -         | -         | -         |
