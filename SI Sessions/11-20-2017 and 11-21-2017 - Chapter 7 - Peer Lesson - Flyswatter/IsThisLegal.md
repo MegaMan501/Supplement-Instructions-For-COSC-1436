@@ -11,7 +11,6 @@ newValues = oldValues;
 ### If not, what is the correct way to assign oldValues to newValues?
 
 ```c++
-//
-// What goes here?
-//
+for (int count = 0; count < SIZE; count++)
+    newValues[count] = oldValues[count];
 ```

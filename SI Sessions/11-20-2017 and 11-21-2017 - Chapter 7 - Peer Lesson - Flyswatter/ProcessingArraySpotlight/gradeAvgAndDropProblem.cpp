@@ -13,13 +13,12 @@ double getLowest(const double[], int);
 
 int main()
 {
-    const int SIZE = 4;
-    // Array size
+    const int SIZE = 4;         // Array size
 
-    double testScores[SIZE], // Array of test scores
-    total,// Total of the scores
-    lowestScore,// Lowest test score
-    average;// Average test score
+    double testScores[SIZE],    // Array of test scores
+           total,               // Total of the scores
+           lowestScore,         // Lowest test score
+           average;             // Average test score
 
     // Set up numeric output formatting.
     cout << fixed << showpoint << setprecision(1);
@@ -42,7 +41,7 @@ int main()
 
     // Display the average.
     cout << "The average with the lowest score "
-    << "dropped is " << average << ".\n";
+        << "dropped is " << average << ".\n";
 
     pause();
     return 0;
@@ -82,5 +81,5 @@ double getTotal(const double numbers[], int size)
 //*****************************************************
 double getLowest(const double numbers[], int size)
 {
-    
+
 }

@@ -327,6 +327,17 @@ int updateGrid(Life grid[][GRID_COLUMNS], int numRows)
 		} 
 	} // end of Pass 1
 
+	// Pass 2. Stay alive, die, or be born
+	for (int row = 0; row < numRows; row++)
+	{
+		for (int col = 0; col < GRID_COLUMNS; col++)
+		{
+			grid[row][col].currentAlive =
+				grid[row][col].futureAlive;
+			if (grid[row][col].currentAlive) liveCells++;
+		}
+	}
+
 	return liveCells;
 }
 
