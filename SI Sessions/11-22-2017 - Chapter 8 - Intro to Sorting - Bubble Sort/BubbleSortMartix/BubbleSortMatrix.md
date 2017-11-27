@@ -8,7 +8,7 @@ Complete the given Step-Wise Matrix.
     const int SIZE = 5;
     int unsortedArray[] = { 7, 2, 3, 8, 9, 1 };
 
-    sortArray(unsortedArray, SIZE); 
+    sortArray(unsortedArray, SIZE);
 ```  
 
 | Steps:  | Element 0 | Element 1 | Element 2 | Element 3 | Element 4 | Element 5 |
@@ -19,3 +19,5 @@ Complete the given Step-Wise Matrix.
 | __(4)__ | -         | -         | -         | -         | -         | -         |
 | __(5)__ | -         | -         | -         | -         | -         | -         |
 | __(6)__ | -         | -         | -         | -         | -         | -         |
+| __(7)__ | -         | -         | -         | -         | -         | -         |
+| __(8)__ | -         | -         | -         | -         | -         | -         |
