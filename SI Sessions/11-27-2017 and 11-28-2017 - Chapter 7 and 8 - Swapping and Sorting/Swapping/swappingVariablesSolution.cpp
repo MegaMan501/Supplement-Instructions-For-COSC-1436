@@ -16,7 +16,7 @@ void swap(string & first, string & second);
 
 int main()
 {
-	// First and second values that will be reversed
+	// First and second values that will be swapped
 	int firstInt, secondInt;
 	double firstDouble, secondDouble;
 	char firstChar, secondChar;
