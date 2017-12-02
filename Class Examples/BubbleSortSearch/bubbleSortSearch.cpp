@@ -15,7 +15,7 @@ using namespace std;
 // Global variables
 const int SIZE = 10000;				// Size of our array
 const int MAX_VALUE = 100000;		// max value in array
-const int EXP_SIZE = SIZE * 100;	// number of expriement 
+const int EXP_SIZE = SIZE * 100;	// number of expriement
 
 // Function declarations
 void bubbleSort(int arr[], int size);
@@ -34,44 +34,44 @@ int main()
 	int unsortedArr[SIZE];		// unsorted data
 	int sortedArr[SIZE];		// sorted data
 	int searchSequence[SIZE];	// set of search elements
-	clock_t startTime;			// time run started 
+	clock_t startTime;			// time run started
 	clock_t endTime;			// time run ended
 	double totaltime;			// time run took in seconds
 
 	// Seed the RNG
 	srand(unsigned(time(0)));
-    
+
 	// Get some values for our array
 	for (int i = 0; i < SIZE; i++)
 	{
 		unsortedArr[i] = 1 + rand() % MAX_VALUE; // 1 to max value
 	}
-    
-	// Copy the array to another so we use the value again
-	copyArray(unsortedArr, sortedArr, SIZE); 
-	
-	// Sort it out 
-	bubbleSort(sortedArr, SIZE); 
 
-	// Set the search sequence 
+	// Copy the array to another so we use the value again
+	copyArray(unsortedArr, sortedArr, SIZE);
+
+	// Sort it out
+	bubbleSort(sortedArr, SIZE);
+
+	// Set the search sequence
 	for (int i = 0; i < SIZE; i++)
 	{
 		searchSequence[i] = 1 + rand() % (MAX_VALUE + 1000);
 	}
 
-	// Run the experiment 
+	// Run the experiment
 	// Linear Search
 	startTime = clock();
 	for (int i = 0, j = 0; i < EXP_SIZE; i++)
 	{
-		j = i % SIZE; 
+		j = i % SIZE;
 		linearSearch(unsortedArr, searchSequence[j], SIZE);
 	}
-	endTime = clock(); 
+	endTime = clock();
 
 	// Get the total time in seconds
-	totaltime = (endTime - startTime) / static_cast<double>(CLOCKS_PER_SEC); 
-	cout << "The number of seconds used by Linear Search. " << totaltime << endl; 
+	totaltime = (endTime - startTime) / static_cast<double>(CLOCKS_PER_SEC);
+	cout << "The number of seconds used by Linear Search. " << totaltime << endl;
 
 	// Now for the binary search
 	startTime = clock();
@@ -92,7 +92,7 @@ int main()
 	//	The following is system dependent.  It will only work on Windows
     system("PAUSE");
 
-	/* 
+	/*
 	// A non-system dependent method is below
 	cout << "Press any key to continue";
 	cin.get();
@@ -136,15 +136,15 @@ void bubbleSort(int arr[], int size)
 	// Go through each element from size - 1 to element 1
 	for (int i = 0; i < (size - 1); i++)
 	{
-		didSwap = false; 
+		didSwap = false;
 
 		// Check all the remaining element from 0 to i
-		for (int j = 0; j < i; j++)
+		for (int j = 0; j < (size - 1); j++)
 		{
 			if (arr[j] > arr[j + 1])
 			{
 				swap(arr[j], arr[j + 1]);
-				didSwap = true; 
+				didSwap = true;
 				//swap(month[j], month[j + 1]);
 			}
 		} // end of inner loop
@@ -164,9 +164,9 @@ void swap(int & a, int & b)
 // Swap values a and b
 void swap(string & a, string & b)
 {
-	string temp = a; 
-	a = b; 
-	b = temp; 
+	string temp = a;
+	a = b;
+	b = temp;
 }
 
 // Copys contents of first array to second array.
@@ -185,13 +185,13 @@ void copyArray(const int s[], int t[], int size)
 int linearSearch(const int s[], int e, int size)
 {
 	int index = -1;	// hold the index value where e is found
-	
+
 	for (int i = 0; i < size; i++)
 	{
 		if (s[i] == e)
 		{
-			index = i; 
-			break; 
+			index = i;
+			break;
 		}
 	}
 
@@ -205,25 +205,25 @@ int linearSearch(const int s[], int e, int size)
 int binarySearch(const int s[], int e, int size)
 {
 	// starting position of first and last element
-	int first = 0, last = size - 1; 
+	int first = 0, last = size - 1;
 	// starting position of middle element
-	int mid = (first + last) / 2; 
+	int mid = (first + last) / 2;
 	int index = -1; // position where e is found
 
 	while (first <= last)
 	{
 		if (s[mid] == e)
 		{
-			index = mid; 
-			break; 
+			index = mid;
+			break;
 		}
 		else if (s[mid] > e) // e is on left side
 		{
-			last = mid - 1; 
+			last = mid - 1;
 		}
 		else  //s[mid] < e, e is on right side
 		{
-			first = mid + 1; 
+			first = mid + 1;
 		}
 		mid = (first + last) / 2;
 	}

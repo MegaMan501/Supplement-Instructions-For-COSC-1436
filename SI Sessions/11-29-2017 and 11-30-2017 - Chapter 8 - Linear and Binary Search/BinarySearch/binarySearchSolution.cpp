@@ -25,7 +25,7 @@ int main()
     results = binarySearch(idNums, SIZE, empID);
 
     // If results contains −1 the ID was not found.
-    if (results == −1)
+    if (results == -1)
         cout << "That number does not exist in the array. \n";
     else
     {
@@ -47,9 +47,9 @@ int main()
 int binarySearch(const int array[], int size, int value)
 {
     int first = 0,          // First array element
-        last = size − 1,    // Last array element
+        last = size - 1,    // Last array element
         middle,             // Midpoint of search
-        position = −1;
+        position = -1;
 
     // Position of search value
     bool found = false;
@@ -65,10 +65,10 @@ int binarySearch(const int array[], int size, int value)
             position = middle;
         }
         else if (array[middle] > value) // If value is in lower half
-            last = middle − 1;
+            last = middle - 1;
         else
             first = middle + 1;         // If value is in upper half
     }
-    
+
     return position;
 }

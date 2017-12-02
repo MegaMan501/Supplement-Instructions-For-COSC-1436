@@ -20,7 +20,7 @@ int main()
     results = searchList(tests, SIZE, 100);
 
     // If searchList returned −1, then 100 was not found.
-    if (results == −1)
+    if (results == -1)
         cout << "You did not earn 100 points on any test\n";
     else
     {
@@ -53,7 +53,7 @@ void pause()
 int searchList(const int list[], int size, int value)
 {
     int index = 0;                      // Used as a subscript to search array
-    int position = −1;                  // To record position of search value
+    int position = -1;                  // To record position of search value
     bool found = false;                 // Flag to indicate if the value was found
 
     while (index < size && !found)
