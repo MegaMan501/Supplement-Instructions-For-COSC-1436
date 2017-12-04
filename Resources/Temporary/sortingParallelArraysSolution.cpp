@@ -14,6 +14,7 @@ const int MONTHS = 12;
 // Function declarations
 void pause();
 void bubbleSort(double avgWindSpeeds[MONTHS], string monthNames[MONTHS], int size);
+void display(double avgWindSpeeds[MONTHS], string monthNames[MONTHS], int size);
 void swap(double & first, double & second);
 void swap(string & first, string & second);
 
@@ -26,20 +27,19 @@ int main()
                                   "April", "May", "June",
                                   "July", "August", "September",
                                   "October", "November", "December"};
-	string sortedMonthNames[MONTHS];
 
-	for (int i = 0; i < MONTHS; i++)
-		cout << left << avgWindSpeeds[i] << right << "\t" << monthNames[i] << endl;
-	cout << endl;
+	// Display the Unsorted Parallel Arrays
+	cout << "\nUnsorted Parallel Array\n";
+	display(avgWindSpeeds, monthNames, MONTHS);
 
+	// Sort The Parallel Arrays
 	bubbleSort(avgWindSpeeds, monthNames, MONTHS);
 
-	for (int i = 0; i < MONTHS; i++)
-		cout << left << avgWindSpeeds[i] << right << "\t" << monthNames[i] << endl;
+	// Display the Sorted Parallel Arrays
+	cout << "\nSorted Parallel Array\n";
+	display(avgWindSpeeds, monthNames, MONTHS);
 
-	// Pause the console
-    pause();
-
+    pause(); // Pause the console
     return 0;
 }
 
@@ -50,6 +50,7 @@ void pause()
 	cin.ignore().get();
 }
 
+// Sort the Parallel arrays
 void bubbleSort(double avgWindSpeeds[MONTHS], string monthNames[MONTHS], int size)
 {
 	// Mr Atkinson's Bubble Sort
@@ -92,6 +93,22 @@ void bubbleSort(double avgWindSpeeds[MONTHS], string monthNames[MONTHS], int siz
 	 	}
 	 } while (didSwap);
 	*/
+}
+
+// Display the Parallel Arrays
+void display(double avgWindSpeeds[MONTHS], string monthNames[MONTHS], int size)
+{
+	// Set Output Format
+	cout << fixed << showpoint << setprecision(2);
+
+	// Display a table of the parallel arrays
+	cout << left << setw(10) << "\nMonth" << right << "\tWind Speed\n";
+	for (int i = 0; i < 31; i++)
+		cout << "-";
+	cout << endl;
+	for (int i = 0; i < MONTHS; i++)
+		cout << left << setw(10) << monthNames[i] << "\t" << right << avgWindSpeeds[i] << endl;
+	cout << endl;
 }
 
 // Swap the first floating point number with the second
