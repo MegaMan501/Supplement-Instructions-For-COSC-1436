@@ -1,4 +1,4 @@
-#Find All of the Errors
+# Find All of the Errors: Structures
 
 ```c++
 // This program demonstrates the use of structures.
@@ -29,7 +29,7 @@ int main()
 
     // Get the employee's name.
     cout << "Enter the employee's name: ";
-    getline(cin, employeename);
+    getline(cin, employee.name);
 
     // Get the hours worked by the employee.
     cout << "How many hours did the employee work? ";
