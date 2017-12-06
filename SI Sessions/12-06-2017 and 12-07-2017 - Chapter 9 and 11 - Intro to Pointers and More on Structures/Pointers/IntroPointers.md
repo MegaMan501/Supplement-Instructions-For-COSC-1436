@@ -9,6 +9,4 @@ The address operator `&` returns the memory address of a variable.
 ## Buckys C++ Programming Tutorials - 38 - Introduction to Pointers
 [![IMAGE ALT TEXT HERE](https://lh3.googleusercontent.com/Ned_Tu_ge6GgJZ_lIO_5mieIEmjDpq9kfgD05wapmvzcInvT4qQMxhxq_hEazf8ZsqA=w300)](https://www.youtube.com/watch?v=Fa6S8Pz924k)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Fa6S8Pz924k" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-
 Source: https://www.youtube.com/watch?v=Fa6S8Pz924k
