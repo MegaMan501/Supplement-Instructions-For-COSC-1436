@@ -13,7 +13,7 @@ void pause()
 {
     cout << "\nPress Enter to Continue";
     cin.ignore().get();
-};
+}
 
 int main()
 {
