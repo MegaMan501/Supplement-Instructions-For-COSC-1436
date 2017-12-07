@@ -29,7 +29,7 @@ int main()
 
     // Get the employee's name.
     cout << "Enter the employee's name: ";
-    getline(cin, employeename);
+    getline(cin, employee.name);
 
     // Get the hours worked by the employee.
     cout << "How many hours did the employee work? ";
