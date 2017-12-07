@@ -1,4 +1,4 @@
-#Find All of the Errors
+# Find All of the Errors: Structures
 
 ```c++
 // This program demonstrates the use of structures.
