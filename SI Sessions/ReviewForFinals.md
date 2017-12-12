@@ -1,4 +1,4 @@
-# Review Outline for Finals:
+# Review for Finals:
 
 Chapter 7, 8, 9, and 11 Review.
 
