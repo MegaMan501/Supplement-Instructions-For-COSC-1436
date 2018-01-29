@@ -14,6 +14,7 @@ code.
 | Getting Started       | Guides for how to get free software, coding on Mac, coding on Visual Studio 2017, and setting up office 365.  |
 | Resources             | Resources for SI Sessions.                                                                                    |
 | SI Sessions           | Code from each of the sessions held so far.                                                                   |
+| [Fall 2017 Supplemental Instruction](/Resources/Fall_2017_Supplemental_Instruction) | Previous Semester's Supplemental Instruction Material |
 
 ### Files:
 | Files:                | Description:                                                  |
@@ -23,8 +24,10 @@ code.
 | templateOriginal.cpp  | Mr. Atkinson's original template file.                        |
 
 
+
+
 ## Marketing
-![FlyerFall2017](/Resources/Marketing/SI_Flyer_Fall_2017.png)
+![FlyerFall2017](/Resources/Marketing/Spring2018SiFlyer.png)
 
 ### Links
 [Supplement Instruction link](https://www.tccd.edu/academics/academic-help/supplemental-instruction/)
