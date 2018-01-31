@@ -10,10 +10,10 @@ code.
 ### Folders:
 | Folders:              | Description:                                                                                                  |
 | ---                   | ---                                                                                                           |
-| [Class Examples](/Class\ Examples)        | Source code for the examples from Mr. Atkinson's class.                                                       |
-| [Getting Started](/Getting\ Started)       | Guides for how to get free software, coding on Mac, coding on Visual Studio 2017, and setting up office 365.  |
+| Class Examples        | Source code for the examples from Mr. Atkinson's class.                                                       |
+| Getting Started      | Guides for how to get free software, coding on Mac, coding on Visual Studio 2017, and setting up office 365.  |
 | Resources             | Resources for SI Sessions.                                                                                    |
-| [SI Sessions](/SI\ Sessions)           | Code from each of the sessions held so far.                                                                   |
+| SI Sessions           | Code from each of the sessions held so far.                                                                   |
 | [Fall 2017 Supplemental Instruction](/Resources/Fall_2017_Supplemental_Instruction) | Previous Semester's Supplemental Instruction Material |
 
 ### Files:
