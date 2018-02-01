@@ -21,7 +21,7 @@ int main()
   cout << "Sale price: $" << salePrice << endl
 
   // New sales price by dividing it by three people
-  int people = 3;
+  int people = 0;
   salePrice = salePrice / people;
   cout << "Sale price: $" << salePrice << endl;
 
