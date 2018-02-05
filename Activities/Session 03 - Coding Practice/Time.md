@@ -21,6 +21,8 @@ int main()
     return 0;
 }
 ```
-[Problem](/Resources/2018SP/Session 03 - Coding Practice/Problems/timeProblem.cpp)
+## Problem Source Code
+
+[Problem](/Resources/2018SP/Session\ 03\ -\ Coding Practice/Problems/timeProblem.cpp)
 
 <!-- <br>[Solution](/Resources/2018SP/Session 03 - Coding Practice/Solutions/timeSolution.cpp) -->
