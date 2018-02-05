@@ -4,6 +4,9 @@
 #include <iostream>
 using namespace std;
 
+// Function declarations
+void pause();
+
 int main()
 {
     // Variables to hold the monthly pay and the
@@ -25,5 +28,14 @@ int main()
     cout << "10 percent is $" << contribution
          << " per month.\n";
 
+    pause(); // pauses the console
     return 0;
+}
+
+// A non-system dependent method to pause the console
+void pause()
+{
+  cin.clear();
+	cout << "\n\nPress enter to continue....";
+	cin.get();
 }

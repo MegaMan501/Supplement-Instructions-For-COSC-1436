@@ -10,12 +10,12 @@
 #include <cstdlib>
 #include <string>
 using namespace std;
-
+#region
 // Global variables
 
 // Function declarations
 void pause();
-
+#endregion 
 // Templates
 template <typename T>
 T getValidatedInput();
