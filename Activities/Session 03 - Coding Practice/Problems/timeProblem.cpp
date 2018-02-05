@@ -1,10 +1,5 @@
-# Basic Time Calculator
-
-This program converts seconds to minutes and seconds.
-Fill in the blanks as a group.
-
-## Problem
-```c++
+#include <iostream>
+using namespace std;
 
 int main()
 {
@@ -20,4 +15,3 @@ int main()
 
     return 0;
 }
-```
