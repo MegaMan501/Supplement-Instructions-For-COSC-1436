@@ -21,9 +21,9 @@ Here is the folder structure of this repository.
 ### Files:
 | Files:                | Description:                                                  |
 |---                    | ---                                                           |
-| [template.cpp](/Resources/template.cpp)          | Mr. Atkinson's template file, with error handling template.   |
-| [templateModified.cpp](/Resources/templateModified.cpp)  | My modification of Mr. Atkinson's template file.              |
-| [templateOriginal.cpp](/Resources/templateOriginal)  | Mr. Atkinson's original template file.                        |
+| [template.cpp](/Resources/Code/Templates/template.cpp)          | Mr. Atkinson's template file, with error handling template.   |
+| [templateModified.cpp](/Resources/Code/Templates/templateModified.cpp)  | My modification of Mr. Atkinson's template file.              |
+| [templateOriginal.cpp](/Resources/Code/Templates/templateOriginal.cpp)  | Mr. Atkinson's original template file.                        |
 
 ## Flyer
 ![FlyerFall2017](/Resources/Marketing/2018SP_COSC1436_SI_Flyer.png)
