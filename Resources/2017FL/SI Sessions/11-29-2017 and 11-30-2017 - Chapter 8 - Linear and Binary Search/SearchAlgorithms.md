@@ -1,6 +1,6 @@
 # Searching Algorithms
 
-![Binary vs Linear Search](/Resources/Pictures/binary-and-linear-search-animations.gif)
+![Binary vs Linear Search](/Resources/2017FL/SI Sessions/11-29-2017 and 11-30-2017 - Chapter 8 - Linear and Binary Search/binary-and-linear-search-animations.gif)
 
 source: `https://blog.penjee.com/wp-content/uploads/2015/04/binary-and-linear-search-animations.gif`
 

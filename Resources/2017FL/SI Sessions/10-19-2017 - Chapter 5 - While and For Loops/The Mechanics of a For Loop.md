@@ -15,9 +15,9 @@ for (initialization; test; update)
     statement2;
     .
     .
-    statementn; 
+    statementn;
 }
 ````
 
 ## General Flowchart of `for loop`
-![alt text](/Resources/Pictures/forLoop.svg)
+![alt text](/Resources/2017FL/SI Sessions/10-19-2017 - Chapter 5 - While and For Loops/forLoop.svg)
