@@ -38,5 +38,5 @@ int main()
     return 0;
 }
 ```
-[Code for Problem](/Activities/Session 03 - Coding Practice/Restaurant Bill/restaurantBillProblem.cpp)
-<!-- <br>[Code for Solution](/Activities/Session 03 - Coding Practice/Restaurant Bill/restaurantBillSolution.cpp) -->
+[Code for Problem](/Activities/Session%2003%20-%20Coding%20Practice/Restaurant%20Bill/restaurantBillProblem.cpp)
+<br>[Code for Solution](/Activities/Session%2003%20-%20Coding%20Practice/Restaurant%20Bill/restaurantBillSolution.cpp)
