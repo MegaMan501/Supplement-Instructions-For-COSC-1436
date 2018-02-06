@@ -21,5 +21,5 @@ int main()
     return 0;
 }
 ```
-[Code for Problem](/Activities/Session 03 - Coding Practice/Basic Time Calculator/timeProblem.cpp)
+[Code for Problem]('/Activities/Session 03 - Coding Practice/Basic Time Calculator/timeProblem.cpp')
 <!-- <br>[Code for Solution](/Activities/Session 03 - Coding Practice/Basic Time Calculator/timeSolution.cpp) -->
