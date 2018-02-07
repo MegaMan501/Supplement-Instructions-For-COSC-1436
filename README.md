@@ -13,7 +13,7 @@ Here is the folder structure of this repository.
 | Folders:              | Description:                                                                                                  |
 | ---                   | ---                                                                                                           |
 | [Activities](/Activities)           | Code for Supplemental Instruction Session.                                                                   |
-| [Class](/Class)        | Source code for the examples from Mr. Atkinson's class.                                                       |
+| [Class Examples](/Class%20Examples)        | Source code for the examples from Mr. Atkinson's class.                                                       |
 | [Guides](/Guides)       | Guides for how to get free software, coding on Mac, Visual Studio 2017, and setting up office 365.  |
 | Resources             | Resources for SI Sessions.                                                                                    |
 
