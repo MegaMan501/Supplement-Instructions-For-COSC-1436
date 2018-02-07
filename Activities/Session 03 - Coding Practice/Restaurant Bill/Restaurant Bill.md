@@ -19,7 +19,7 @@ const double TIP_PERCENTAGE = 0.20;
 
 int main()
 {
-	// patron's meal cost
+    // patron's meal cost
     // holds the tax of the meal
     // holds the tip of the meal
     // total cost of meal
@@ -32,9 +32,10 @@ int main()
     // Display the results
 
 
-	//	Make sure we place the end message on a new line
+    // Make sure we place the end message on a new line
     cout << endl;
-
+    system("PAUSE");	
+    
     return 0;
 }
 ```
