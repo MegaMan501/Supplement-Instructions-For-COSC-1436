@@ -39,4 +39,4 @@ int main()
 }
 ```
 [Code for Problem](/Activities/Session%2003%20-%20Coding%20Practice/Restaurant%20Bill/restaurantBillProblem.cpp)
-<!-- <br>[Code for Solution](/Activities/Session%2003%20-%20Coding%20Practice/Restaurant%20Bill/restaurantBillSolution.cpp) -->
+<br>[Code for Solution](/Activities/Session%2003%20-%20Coding%20Practice/Restaurant%20Bill/restaurantBillSolution.cpp)
