@@ -19,9 +19,6 @@ This code is converting kilograms to pounds.
 ```c++
 int main()
 {
-
-	return 0;
-}
 ```
 4. Choice
 ```c++
@@ -47,4 +44,35 @@ int main()
 ```c++
 #include <iostream>
 using namespace std;
+```
+9. Choice
+```c++
+	return 0;
+}
+```
+
+## Solution
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	double pounds,		// holds the weight in pounds
+	       kilograms;	// holds the weight in kilograms
+
+	// Write code here that displays the user's weight in pounds
+	cout <<"\nYour weight is " << pounds << " pounds.";
+
+	// Read in the user's input and save it into kilograms variable
+	cin >> kilograms;
+
+	// The following line does the conversion.
+	pounds = kilograms * 2.2;
+
+	cout << endl;
+	system("PAUSE");
+
+	return 0;
+}
 ```

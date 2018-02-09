@@ -18,7 +18,7 @@ int main()
     cout << "The number of millimeters the ocean level has increase since 8 years is: "
         << CURRENT_OCEAN_LEVEL * 8.0 << endl;
 
-    // Print out the ocean's level in 10 years
+    // Print out the ocean's level in 11 years
     cout << "The number of millimeters the ocean level has increase since 11 years is: "
         << CURRENT_OCEAN_LEVEL * 11.0 << endl;
 
