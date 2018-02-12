@@ -3,13 +3,13 @@
 Order each flashcard from highest to lowest for each data type in C++.
 
 ## Problem
-<style type="text/css">
+<!-- <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
 .tg .tg-baqh{text-align:center;vertical-align:top}
 .tg .tg-yw4l{vertical-align:top}
-</style>
+</style> -->
 <table class="tg">
   <tr>
     <th class="tg-baqh" colspan="3">Highest</th>
@@ -63,9 +63,10 @@ Order each flashcard from highest to lowest for each data type in C++.
     <td class="tg-baqh" colspan="3">Lowest</td>
   </tr>
 </table>
----
+
+<!--
 ## Solution
-<!-- <style type="text/css">
+<style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
