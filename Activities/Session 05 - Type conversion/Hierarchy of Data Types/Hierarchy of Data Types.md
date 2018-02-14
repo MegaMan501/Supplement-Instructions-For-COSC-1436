@@ -112,3 +112,6 @@ Order each flashcard from highest to lowest for each data type in C++.
     <td class="tg-baqh" colspan="3">Lowest</td>
   </tr>
 </table>
+
+
+For more information visit: [tutorialspoint.com](https://www.tutorialspoint.com/cplusplus/cpp_data_types.htm) 
