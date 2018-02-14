@@ -4,14 +4,6 @@ Take sometime and talk with your team members to find all three of the type conv
 for C++. Once your team has found all three of the type conversion rules, come up with examples for each rule.
 
 ## Problem
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg .tg-yw4l{vertical-align:top}
-</style>
-
 <table class="tg">
   <tr>
     <th class="tg-031e" colspan="2">Team 1</th>
@@ -44,13 +36,6 @@ for C++. Once your team has found all three of the type conversion rules, come u
 </table>
 
 ## Solution
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-</style>
-
 <table class="tg">
   <tr>
     <th class="tg-031e">Rule</th>
