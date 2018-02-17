@@ -12,7 +12,7 @@ int main()
     std::cout << "Enter the city you live in: ";
     std::cin >> city;
     std::cout << "Enter the state you live in: ";
-    std::cin >> city;
+    std::cin >> state;
 
     std::cout << std::endl;
     std::cout << "Hello, " << name << std::endl;

@@ -20,6 +20,7 @@ int main()
   // Display the third row of numbers
 
 
+  system("PAUSE");
   return 0;
 }
 /*
