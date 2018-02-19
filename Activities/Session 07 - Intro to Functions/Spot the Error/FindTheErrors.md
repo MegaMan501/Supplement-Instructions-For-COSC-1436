@@ -1,6 +1,6 @@
 # Find The All The Errors
 
-Find all of the errors in two examples below.
+Find all of the errors in the two examples below.
 **Do not correct the errors. Just find them.**
 
 ---
