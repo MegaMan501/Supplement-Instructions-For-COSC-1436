@@ -23,23 +23,23 @@ main
 }
 ```
 
-<!-- 1st Problem Solution:
+1st Problem Solution:
 ```c++
-#include <iostream>; // 1
+#include <iostream>; // 1 - remove semicolon
 using namespace std;
 
-main // 2
+main // 2 - should be: int main()
 {
 	int number1, number2;
-	cout << "Enter two numbers and I will multiply\n" // 3
-	cout << "them by 50 for you.\n"	// 4
+	cout << "Enter two numbers and I will multiply\n" // 3 - need a semicolon at the end
+	cout << "them by 50 for you.\n"	// 4 - need a semicolon at the end
 	cin >> number1 >> number2;
-	number1 =* 50; //5
-	number2 =* 50; //6
+	number1 =* 50; //5 - should be: number1 *= 50;
+	number2 =* 50; //6 - should be: number2 *= 50;
 	cout << number1 << " " << number2;
 	return 0;
 }
-``` -->
+```
 
 ---
 
@@ -58,17 +58,18 @@ int main()
 }
 ```
 
-<!-- 2nd Problem Solution:
+2nd Problem Solution:
 ```c++
-include <iostream> // 1
+include <iostream> 	// 1 - missing #
+					// 2 - missing #include <string>
 using namespace std;
 
 int main()
 {
-	char name, go; // 2
-	cout << "Enter your name: " // 3
-	getline >> name;	// 4
+	char name, go; // 3 - should be: string name;
+	cout << "Enter your name: ";
+	getline >> name;	// 4 - should be: getline(cin, name);
 	cout << "Hi " << name << endl;
 	return 0;
 }
-``` -->
+```
