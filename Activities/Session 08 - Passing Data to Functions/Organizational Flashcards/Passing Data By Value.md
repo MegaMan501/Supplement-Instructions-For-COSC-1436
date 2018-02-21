@@ -13,6 +13,9 @@ cout << "number is " << number << endl;
 changeMe(number);
 ```
 ```c++
+int number = 12;
+```
+```c++
 int main()
 {
 ```
