@@ -1,29 +1,24 @@
 // This program converts cups to fluid ounces.
+// Fill in the missing code one by one as a group.
 #include <iostream>
 #include <iomanip>
 using namespace std;
 
 // Function prototypes
-void showIntro();
-double getCups();
-double cupsToOunces(double);
 
 int main()
 {
   // Variables for the cups and ounces.
   double cups, ounces;
 
-  // Set up numeric output formatting.
-  cout << fixed << showpoint << setprecision(1);
-
   // Display an intro screen.
-  showIntro();
 
   // Get the number of cups.
-  cups = getCups();
 
   // Convert cups to fluid ounces.
-  ounces = cupsToOunces(cups);
+
+  // Set up numeric output formatting.
+  cout << fixed << showpoint << setprecision(1);
 
   // Display the number of ounces.
   cout << cups << " cups equals "
@@ -52,11 +47,7 @@ void showIntro()
 //******************************************
 double getCups()
 {
-  double numCups;
-  cout << "Enter the number of cups: ";
-  cin >> numCups;
 
-  return numCups;
 }
 
 //******************************************
@@ -67,5 +58,5 @@ double getCups()
 //******************************************
 double cupsToOunces(double numCups)
 {
-  return numCups * 8.0;
+
 }

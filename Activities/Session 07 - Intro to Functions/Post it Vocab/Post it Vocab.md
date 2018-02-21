@@ -1,4 +1,4 @@
-# Post it Vocabulary - Chapter 3
+# Post it Vocabulary - Chapter 6
 
 Generate what they think the main themes
 of **Chapter 3** were so far and write them on the board.
