@@ -43,7 +43,7 @@ return 0;
 }
 ```
 
-<!--
+
 ## Solution:
 ```c++
 #include <iostream>
@@ -80,4 +80,3 @@ void changeMe(int myValue)
     cout << "Now the value is " << myValue << endl;
 }
 ```
--->

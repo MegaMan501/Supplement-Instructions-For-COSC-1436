@@ -10,7 +10,7 @@ Given these data types for function prototypes:
 
 Make a function prototypes for each of the data type.
 
-<!-- 
+
 ## Some Possible Solutions:
 ```c++
 // Function Declarations
@@ -20,4 +20,4 @@ int total(int, int);
 string getName();
 double sumScores(double scores[], int size);
 bool isOdd(int);
-``` -->
+```
