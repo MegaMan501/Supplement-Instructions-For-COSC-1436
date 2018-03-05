@@ -1,12 +1,12 @@
 /******************************
 	Name: Mohamed Rahaman
-	Date: Febraury 21, 2018
+	Date: February 21, 2018
 	File: invoiceRefactored.cpp
-	
-	Description: 
-	This program will ask the user for her name, 
-	ask for the names and cost of three items 
-	then calculate the total cost and average of 
+
+	Description:
+	This program will ask the user for her name,
+	ask for the names and cost of three items
+	then calculate the total cost and average of
 	the three items.
 ********************************/
 
@@ -20,7 +20,7 @@ using namespace std;
 // Global variables
 const int NUM_ITEMS = 3;
 
-// Function Declarations 
+// Function Declarations
 string getCustomerName();
 void getItemNames(string names[], int size);
 void getItemCost(double costs[], string names[], int size);
@@ -33,7 +33,7 @@ int main()
 	string customerName;			// Full Name of the customer
 	string itemNames[NUM_ITEMS];	// Names of the three items // [Static arrays]
 	double itemCost[NUM_ITEMS];		// Cost of each of the three items
-	
+
 	// Get the customer name
 	customerName = getCustomerName();
 
@@ -56,14 +56,14 @@ int main()
 // Get and return customer name
 string getCustomerName()
 {
-	string customerName; 
+	string customerName;
 	cout << "Enter the full name of the customer: ";
 	getline(cin, customerName);
 
 	return customerName;
 }
 
-// Get the names of the items 
+// Get the names of the items
 void getItemNames(string names[], int size)
 {
 	// Get the name of the three items
