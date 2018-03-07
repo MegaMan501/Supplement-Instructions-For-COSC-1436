@@ -6,7 +6,7 @@ to correctly run the code.
 2. Discuss your choices with your neighbors and make adjustments as needed.
 3. Defend your choices.
 
-<!--
+
 ```c++
 // This program uses an if/else if statement to assign a
 // letter grade (A, B, C, D, or F) to a numeric test score.
@@ -38,4 +38,3 @@ int main()
     return 0;
 }
 ```
--->

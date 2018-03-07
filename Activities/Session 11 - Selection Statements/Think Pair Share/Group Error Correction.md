@@ -13,7 +13,7 @@ __Useful Resources:__
 ```c++
 // This program averages 3 test scores.
 // It uses the variable perfectScore as a flag.
-include <iostream>
+#include <iostream>
 using namespace std;
 
 int main()
@@ -45,7 +45,7 @@ int main()
 ```c++
 // This program averages 3 test scores.
 // It uses the variable perfectScore as a flag.
-include <iostream>
+#include <iostream>
 using namespace std;
 
 int main()
@@ -108,7 +108,7 @@ int main()
     return 0.0;
 }
 ```
-<!--
+
 ## Problem 2 - Solution
 ```c++
 // This program divides a user-supplied number by another
@@ -144,4 +144,3 @@ int main()
 }
 
 ```
--->
