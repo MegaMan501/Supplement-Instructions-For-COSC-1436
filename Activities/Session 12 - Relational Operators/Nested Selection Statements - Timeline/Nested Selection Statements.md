@@ -7,11 +7,12 @@ Find and Explain:
 4. What is nested?
 5. What is a the trailing else statement?
 
-# Resources
+### Resources
 - [tutorialspoint](https://www.tutorialspoint.com/cplusplus/cpp_decision_making.htm)
 - [geeksforgeeks](https://www.geeksforgeeks.org/decision-making-c-c-else-nested-else/)
 - [geeksforgeeks](https://www.geeksforgeeks.org/execute-else-statements-cc-simultaneously/)
 
+### The Code
 ```c++
 #include <iostream>
 using namespace std;
