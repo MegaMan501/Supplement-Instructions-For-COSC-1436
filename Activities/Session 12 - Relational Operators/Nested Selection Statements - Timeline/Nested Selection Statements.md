@@ -3,9 +3,9 @@
 Find and Explain:
 1. The scope of the variables
 2. Each Logical block of the code
-3. What each Selection Selection statement is doing?
+3. What each Selection statement is doing?
 4. What is nested?
-5. What is a the trailing else statement?
+5. What are the trailing else statement?
 
 ### Resources
 - [tutorialspoint](https://www.tutorialspoint.com/cplusplus/cpp_decision_making.htm)
