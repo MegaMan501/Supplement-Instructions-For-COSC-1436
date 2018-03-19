@@ -41,7 +41,7 @@ int main()
 }
 ```
 
-<!-- ##  Problem 1 - Solution
+##  Problem 1 - Solution
 ```c++
 // This program averages 3 test scores.
 // It uses the variable perfectScore as a flag.
@@ -77,7 +77,7 @@ int main()
     return 0;
 }
 ```
--->
+
 
 ## Problem 2 - Also Has `9` Errors
 ```c++
