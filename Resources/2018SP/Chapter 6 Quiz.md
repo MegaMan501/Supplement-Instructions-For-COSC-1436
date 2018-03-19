@@ -1,16 +1,21 @@
 # Chapter 6 Quiz - Functions
-1.	A function call is a statement that causes a function to execute.
-    a.	definition
-    b.	call
-    c.	argument
-    d.	body
-2.	A function definition contains the statements that make up the function.
-    a.	definition
-    b.	parameter
-    c.	return type
-    d.	body
-3.	Function declarations are also known as function prototypes.
-    a.	function definitions
-    b.	function parameters
-    c.	function prototypes
-    d.	function name
+1.	A `_______` is a statement that causes a function to execute.
+    a.	definition<br>
+    b.	call<br>
+    c.	argument<br>
+    d.	body<br>
+2.	A function `_____` contains the statements that make up the function.
+    a.	definition<br>
+    b.	parameter<br>
+    c.	return type<br>
+    d.	body<br>
+3.	Function declarations are also known as `_____ _____`.
+    a.	function definitions<br>
+    b.	function parameters<br>
+    c.	function prototypes<br>
+    d.	function name<br>
+
+## Chapter 6 Quiz Answers
+1. b, function call
+2. a, definition
+3. c, function prototypes 
