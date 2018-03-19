@@ -22,10 +22,18 @@
         return num * num * num;
     }
     ```
-    Write a statement that passes the value 4 to this function and assigns its return value<br>
-    to the variable result.
-    
-## Chapter 6 Quiz Answers
+    Write a statement that passes the value 4 to this function and assigns its return value to the variable result.
+
+### `True` or `False`
+5. T F Arguments are passed to the function parameters in the order they appear in the function call.
+6. T F The scope of a parameter is limited to the function which uses it.
+7. T F Changes to a function parameter always affect the original argument as well.
+8. T F In a function prototype, the names of the parameter variables may be left out.
+9. T F Many functions may have local variables with the same name.
+10. T F Overuse of global variables can lead to problems.
+
+
+# Chapter 6 Quiz Answers
 1. b, function call
 2. a, definition
 3. c, function prototypes 
@@ -42,3 +50,10 @@ int main()
     r4=cube(c4);
 }
 ```
+5. T
+6. T 
+7. F
+8. T
+9. T
+10. T
+
