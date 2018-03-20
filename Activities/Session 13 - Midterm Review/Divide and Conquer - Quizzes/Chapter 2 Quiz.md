@@ -5,21 +5,22 @@
     C) semicolon<br>
     D) ending brace<br>
 2. Which of the following statements is correct?<br>
-    A) #include (iostream)<br>
-    B) #include <iostream><br>
-    C) #include {iostream}<br>
-    D) #include [iostream]<br>
+    A) `#include (iostream)`<br>
+    B) `#include <iostream>`<br>
+    C) `#include {iostream}`<br>
+    D) `#include [iostream]`<br>
     E) All of the above<br>
+
 3. Every C++ program must have a
     A) cout statement<br>
     B) function main<br>
     C) #include statement<br>
     D) All of the above<br>
 4. Preprocessor directives begin with a<br>
-    A) #<br>
-    B) !<br>
-    C) <<br>
-    D) *<br>
+    A) `#`<br>
+    B) `!`<br>
+    C) `<`<br>
+    D) `*`<br>
     E) None of the above<br>
 5. The following data<br>
     ```
@@ -34,9 +35,9 @@
     C) Strings<br>
     D) None of the above<br>
 6. A group of statements, such as the contents of a function, is enclosed in<br>
-    A) Parentheses ()<br>
-    B) Brackets <><br>
-    C) Braces {}<br>
+    A) Parentheses `()`<br>
+    B) Brackets `<>`<br>
+    C) Braces `{}`<br>
     D) All of the above will do<br>
 7. Which of the following are not valid assignment statements? (Circle all that apply.)<br>
     A) total = 9;<br>

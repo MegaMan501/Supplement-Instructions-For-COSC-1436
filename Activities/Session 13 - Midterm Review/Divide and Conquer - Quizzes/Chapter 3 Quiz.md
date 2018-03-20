@@ -14,7 +14,7 @@
     ```c++
     unitsEach = qty / salesReps;
     ```
-    
+
 3. Assume value is an integer variable. If the user enters 3.14 in response to the following programming statement, what will be stored in value?<br>
     ```c+
     cin >> value;
@@ -41,7 +41,7 @@
 | `____` | Sets the precision of floating-point numbers. |
 | `____` | Causes subsequent output to be left justified. |
 | `____` | Causes subsequent output to be right justified. |
-| Choices |  showpoint, left, setw(n), fixed, right, setprecision(n) |
+| __Choices:__ |  `showpoint, left, setw(n), fixed, right, setprecision(n)`` |
 
 <!--
 # Chapter 3 Quiz - Answers

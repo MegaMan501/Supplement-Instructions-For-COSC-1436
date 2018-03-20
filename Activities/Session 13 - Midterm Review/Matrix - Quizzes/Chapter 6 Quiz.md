@@ -24,34 +24,30 @@
     ```
     Write a statement that passes the value 4 to this function and assigns its return value to the variable result.
 
-### `True` or `False`
-5. T F Arguments are passed to the function parameters in the order they appear in the function call.
-6. T F The scope of a parameter is limited to the function which uses it.
-7. T F Changes to a function parameter always affect the original argument as well.
-8. T F In a function prototype, the names of the parameter variables may be left out.
-9. T F Many functions may have local variables with the same name.
-10. T F Overuse of global variables can lead to problems.
+### __True__ or __False__
+5. __T F__ Arguments are passed to the function parameters in the order they appear in the function call.
+6. __T F__ The scope of a parameter is limited to the function which uses it.
+7. __T F__ Changes to a function parameter always affect the original argument as well.
+8. __T F__ In a function prototype, the names of the parameter variables may be left out.
+9. __T F__ Many functions may have local variables with the same name.
+10. __T F__ Overuse of global variables can lead to problems.
 
 <!--
 # Chapter 6 Quiz Answers
 1. b, function call
 2. a, definition
-3. c, function prototypes 
-4. it should look something like this: 
+3. c, function prototypes
+4. it should look something like this:
 ```c++
 int main()
 {
-    int c1=1, c2=2, c3=3, c4=4; 
-    int r1, r2, r3, r4; 
+    int value = 4, result;  
 
-    r1=cube(c1);
-    r2=cube(c2);
-    r3=cube(c3);
-    r4=cube(c4);
+    result = cube(value);
 }
 ```
 5. T
-6. T 
+6. T
 7. F
 8. T
 9. T
