@@ -45,7 +45,7 @@
 
 <!--
 # Chapter 3 Quiz - Answers
-1. iomanip
+1. iostream, iomanip
 2. unitsEach = static_cast<double>(qty) / static_cast<double>(salesReps);
 3. C
 4. cin
