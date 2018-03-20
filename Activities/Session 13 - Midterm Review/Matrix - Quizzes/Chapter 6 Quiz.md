@@ -32,7 +32,6 @@
 9. __T F__ Many functions may have local variables with the same name.
 10. __T F__ Overuse of global variables can lead to problems.
 
-<!--
 # Chapter 6 Quiz Answers
 1. b, function call
 2. a, definition
@@ -52,4 +51,3 @@ int main()
 8. T
 9. T
 10. T
--->
