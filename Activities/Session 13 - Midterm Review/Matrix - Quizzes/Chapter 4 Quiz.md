@@ -62,7 +62,6 @@
     C) boolean<br>
     D) integer<br>
     
-<!--
 # Chapter 4 Answers
 1. A, Relational
 2. B, true or false
@@ -77,4 +76,3 @@
 11. A, ||
 12. A, true
 13. D, integer
--->
