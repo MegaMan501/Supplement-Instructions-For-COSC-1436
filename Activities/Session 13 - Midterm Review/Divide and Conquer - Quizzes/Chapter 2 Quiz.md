@@ -71,7 +71,6 @@
     C) At the same time as the compiler compiles your program<br>
     D) None of the above<br>
 
-<!--
 ## Chapter 2 - Quiz Answers
 1. C
 2. B
@@ -85,4 +84,3 @@
 10. A
 11. C
 12. A
--->
