@@ -43,7 +43,6 @@
 | `____` | Causes subsequent output to be right justified. |
 | __Choices:__ |  `showpoint, left, setw(n), fixed, right, setprecision(n)`` |
 
-<!--
 # Chapter 3 Quiz - Answers
 1. iostream, iomanip
 2. unitsEach = static_cast<double>(qty) / static_cast<double>(salesReps);
@@ -55,4 +54,3 @@
 8. overflows, underflows
 9. Type casting
 10. setw(n), fixed, showpoint, setprecision(n), left, right
--->
