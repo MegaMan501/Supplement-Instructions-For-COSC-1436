@@ -15,7 +15,7 @@ int main()
     int num = MIN_NUMBER;
 
     // Counter
-    cout << "Number Number Squared\n";
+    cout << "Number | Number Squared\n";
     cout << "-------------------------\n";
 
     while (num <= MAX_NUMBER)
