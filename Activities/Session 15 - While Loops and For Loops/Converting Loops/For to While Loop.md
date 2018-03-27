@@ -16,7 +16,7 @@ int main()
     return 0;
 }
 ```
-<!--
+
 ### Solution
 ```c++
 #include <iostream>
@@ -35,5 +35,4 @@ int main()
     system("PAUSE");
     return 0;
 }
-```M
--->
+```
