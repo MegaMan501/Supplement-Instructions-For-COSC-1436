@@ -1,4 +1,4 @@
-# While to For Loop
+# __For__ Loop to __While__ Loop
 
 Covert this for loop to while loop.
 ```c++

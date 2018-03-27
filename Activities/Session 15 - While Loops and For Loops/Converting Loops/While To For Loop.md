@@ -1,4 +1,4 @@
-# While to For Loop
+# __While__ Loop to __For__ Loop
 
 Covert this while loop to a for loop.
 ```c++
@@ -7,11 +7,15 @@ using namespace std;
 
 int main()
 {
-    int count = 1;
+    int count = 0;
+    int number;
 
-    while (count <= 10)
+    cout << "How many times do you what to print out a message to the user? : ";
+    cin >> number;
+
+    while (count <= number)
     {
-        cout << "\nWe are on " << count << " count.";
+        cout << "This is the " << (count + 1) << " iteration of this loop.\n";
         count++;
     }
 
@@ -27,9 +31,14 @@ using namespace std;
 
 int main()
 {
+    int number;
+
+    cout << "How many times do you what to print out a message to the user? : ";
+    cin >> number;
+
     for(int count = 1; count <= 10; count++)
     {
-        cout << "\nWe are on " << count << " count.";
+        cout << "This is the " << (count + 1) << " iteration of this loop.\n";
     }
 
     system("PAUSE");
