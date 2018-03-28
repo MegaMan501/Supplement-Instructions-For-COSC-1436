@@ -1,6 +1,6 @@
 # Calories Burned Problem
 
-Running on a particular treadmill you burn 3.6 calories per minute.Write a program that
+Running on a particular treadmill you burn 3.6 calories per minute. Write a program that
 uses a loop to display the number of calories burned after 5, 10, 15, 20, 25, and 30 minutes.
 
 <!--
