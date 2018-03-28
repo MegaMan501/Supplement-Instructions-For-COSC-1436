@@ -18,7 +18,7 @@
 | `for` | The `___` loop is ideal for situations that require a counter. |
 | `do-while` | The `____` loop always iterates at least once. |
 | `while` and `for` | The `_____` and `______` loops will not iterate at all if their test expressions are false to start with. |
-| `initialization, test, update` | Inside the for loop's parentheses the first expression is the `______ ` , the second expression is the `_____` and the third expression is the `_____`. 
+| `initialization`, `test`, `update` | Inside the for loop's parentheses the first expression is the `______ ` , the second expression is the `_____` and the third expression is the `_____`. 
 | `nested` | A loop that is inside another is called a(n) `______` loop. |
 | `break` | The `_____` statement causes a loop to terminate immediately. |
 | `continue` | The `_____` statement causes a loop to skip the remaining statements in the current iteration. |
