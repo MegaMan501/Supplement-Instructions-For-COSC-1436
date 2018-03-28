@@ -1,4 +1,10 @@
-# Links To Helpful Resources
+# Helpful Resources
+
+## Guides: 
+[Free Software](/Guides/Free%20Software.pdf)
+[Setting Up Mac OSX](/Guides/Getting%20Started%20on%20Mac%20OSX.pdf)
+[Setting Up Office 365](/Guides/Office%20365%20Setup.pdf)
+[Setting Up Visual Studio 2017](/Guides/VisualStudio2017.pdf)
 
 ## Your Text Book:
 Starting Out With C++ From Control Structures through Objects:
