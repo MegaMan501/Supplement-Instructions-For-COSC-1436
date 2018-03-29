@@ -36,7 +36,7 @@ int main()
     cout << "How many times do you what to print out a message to the user? : ";
     cin >> number;
 
-    for(int count = 1; count <= 10; count++)
+    for(int count = 1; count <= number; count++)
     {
         cout << "This is the " << (count + 1) << " iteration of this loop.\n";
     }
