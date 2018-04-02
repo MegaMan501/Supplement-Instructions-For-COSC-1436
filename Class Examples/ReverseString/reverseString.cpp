@@ -50,7 +50,7 @@ int main()
 		cout << theWord << " reversed is " << reverseWord << ".\n";
 
 		// Check if it is palindrome
-		cout << endl << theWord << " is ";
+		cout << theWord << " is ";
 		if (!isPalindrome(theWord)) 
 		{ 
 			cout << "not "; 
