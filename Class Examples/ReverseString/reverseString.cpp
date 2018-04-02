@@ -29,38 +29,48 @@ int main()
 
 	do
 	{
+		// Get the word
 		cout << "Enter a word the you would like to reverse: ";
 		getline(cin, theWord);
 
-		// Reverse the word
-		reverseWord = reverseString(theWord);
-
-		cout << endl << "The word reversed is " << reverseWord << ".\n";
+		try
+		{
+			// Reverse the word
+			reverseWord = reverseString(theWord);
+		}
+		catch (const char* errorMessage)
+		{
+			cout << errorMessage << endl; 
+			cout << endl; 
+			choice == 'Y'; 
+			continue; 
+		}
+	
+		// Output the reversed word
+		cout << theWord << " reversed is " << reverseWord << ".\n";
 
 		// Check if it is palindrome
 		cout << endl << theWord << " is ";
-		if (!isPalindrome(theWord))
-		{
-			cout << "not ";
+		if (!isPalindrome(theWord)) 
+		{ 
+			cout << "not "; 
 		}
 		cout << "a palindrome.\n\n";
 
-		// Alternate palindrome check
-		/*cout << theWord << " is "
-		<< (isPalindrome(theWord) ? "" : "not ")
-		<< "a palindrome.\n"; */
+		// Alternate Palindrome Check: 
+		// cout << theWord << " is " 
+		//		<< (isPalindrome(theWord) ? "" : "not ") 
+		//		<< "a palindrome.\n"; 
 
 		cout << "Do you want to reverse another word? (y/n): ";
 		cin >> choice;
 
-		choice = tolower(choice);	// Convert choice to lower case.
 		while (getchar() != '\n');	// Flush the stream.
-
 		cout << endl;
 
 	} while (choice == 'Y' || choice == 'y'); // end of the loop
 
-	// Make sure we place the end message on a new line
+	//	Make sure we place the end message on a new line
 	cout << endl;
 
 	// The following is system dependent.  It will only work on Windows
