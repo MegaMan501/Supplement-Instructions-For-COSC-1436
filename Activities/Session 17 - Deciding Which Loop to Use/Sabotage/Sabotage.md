@@ -1,7 +1,19 @@
+# Sabotage - Sentinels
+You have 3 minutes to create as many errors as possible on this code.
+Then you have to switch with another student and correct their errors,
+within 5 minutes.
+
+Rules:
+1. Don't delete all of the code.
+2. Don't look at the solution.
+3. You are not required to find all of the errors. 
+
+```c++
 // This program calculates the total number of points a
 // soccer team has earned over a series of games. The user
 // enters a series of point values, then −1 when finished.
 // This program demonstrates how sentinels are used.
+
 #include <iostream>
 using namespace std;
 
@@ -29,3 +41,4 @@ int main()
     system("PAUSE");
     return 0;
 }
+```

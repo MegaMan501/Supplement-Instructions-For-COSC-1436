@@ -23,7 +23,7 @@
 | `_` | A loop that is inside another is called a(n) `______` loop. |
 | `_` | The `_____` statement causes a loop to terminate immediately. |
 
-<!--
+
 ### Solution:
 | Vocab | Question |
 | --- | --- |
@@ -47,5 +47,3 @@
 | `while` and `for` | The `_____` and `______` loops will not iterate at all if their test expressions are false to start with. |
 | `nested` | A loop that is inside another is called a(n) `______` loop. |
 | `break` | The `_____` statement causes a loop to terminate immediately. |
-
--->
