@@ -1,4 +1,5 @@
 # Covert the loops:
+Convert the given loops to the indicated loop. 
 
 ## 1. Convert the following while loop to a do-while loop:
 
