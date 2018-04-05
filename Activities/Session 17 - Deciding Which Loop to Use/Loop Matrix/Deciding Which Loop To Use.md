@@ -1,14 +1,5 @@
 # Deciding Which Loop to use.
 
-
-| Loop Type | Use-case | Example |
-| --- | --- | --- |
-| The `while` loop is a conditional `_____` loop.| --- | --- |
-| The `for` loop is a `_____` loop.| |
-| The `do-while` loop is a conditional `______` loop. | --- | --- |
-
-
-<!--
 ## The `while` loop is a conditional `pretest` loop.
 * Iterates as long as certain condition exits.
 * Validating input.
@@ -20,4 +11,4 @@
 
 ## The `for` loop is a `pretest` loop.
 * Built-in expressions for  initializing, testing, and updating.
-* Situations where the exact number of iterations is known.  -->
+* Situations where the exact number of iterations is known.
