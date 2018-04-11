@@ -22,10 +22,10 @@ T getValidatedInput();
 
 int main()
 {
-	//	Your code goes here
+	// Your code goes here
 
-	// Pause the console
-    pause();
+
+    pause(); // Pause the console
 
     return 0;
 }
@@ -33,8 +33,9 @@ int main()
 // A non-system dependent method to pause the console
 void pause()
 {
-	cout << "\n\nPress enter to continue....";
-	cin.ignore().get();
+	std::cin.clear(); 
+	std::cout << "\n\nPress ENTER to exit..."; 
+	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n').get(); 
 }
 
 template <typename T>
