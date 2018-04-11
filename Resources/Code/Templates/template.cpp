@@ -28,11 +28,10 @@ int main()
 	//	The following is system dependent.  It will only work on Windows
     system("PAUSE");
 
-	/* 
 	// A non-system dependent method is below
-	cout << "Press any key to continue";
-	cin.get();
-	*/
+	// cout << "\n\nPress ENTER to continue";
+	// cin.get();
+
     return 0;
 }
 
