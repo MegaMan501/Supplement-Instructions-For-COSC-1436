@@ -26,7 +26,7 @@ int main()
     system("PAUSE");
 
 	// A non-system dependent method is below
-	// cout << "Press any key to continue";
+	// cout << "\n\nPress ENTER to continue";
 	// cin.get();
 
     return 0;
