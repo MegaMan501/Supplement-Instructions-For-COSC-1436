@@ -33,10 +33,10 @@ int main()
 // A non-system dependent method to pause the console
 void pause()
 {
-	std::cin.clear(); 
-	std::cout << "\n\nPress ENTER to exit..."; 
-	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n').get(); 
+	std::cout << "\n\nPress ENTER to exit...";
+	std::cin.ignore(1000, '\n').get();
 }
+
 
 template <typename T>
 T getValidatedInput()
