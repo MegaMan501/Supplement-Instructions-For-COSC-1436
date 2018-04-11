@@ -21,4 +21,4 @@
 | [Session 17](/Activities/Session%2017%20-%20Deciding%20Which%20Loop%20to%20Use) | Deciding Which Loop to Use |  
 | [Session 18](/Activities/Session%2018%20-%20Nested%20Loops)	| Nested Loops |
 | [Session 19](/Activities/Session%2019%20-%20File%20Handling) | File Handling |
-| [Session 19](/Activities/Session%2029%20-%20Intro%20to%20Arrays) | Introduction to Arrays |
+| [Session 20](/Activities/Session%2020%20-%20Intro%20to%20Arrays) | Introduction to Arrays |
