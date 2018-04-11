@@ -1,7 +1,7 @@
 # Table of Contents: 
 
-| --- | --- | 
 | Sessions | Contents | 
+| --- | --- | 
 | [Session 01](/Activities/Session%2001%20-%20Getting%20Started) | Getting Started |
 | [Session 02](/Activities/Session%2002%20-%20Common%20Errors) | Common Errors |
 | [Session 03](/Activities/Session%2003%20-%20Coding%20Practice) | Coding Practice |
