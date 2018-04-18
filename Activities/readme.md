@@ -23,3 +23,4 @@
 | [Session 19](/Activities/Session%2019%20-%20File%20Handling) | File Handling |
 | [Session 20](/Activities/Session%2020%20-%20Intro%20to%20Arrays) | Introduction to Arrays |
 | [Session 21](/Activities/Session%2021%20-%20More%20on%20Arrays) | More on Arrays |
+| [Session 22](/Activities/Session%2022%20-%20Additional%20Info%20on%20Arrays) | Additional Info on Arrays|
