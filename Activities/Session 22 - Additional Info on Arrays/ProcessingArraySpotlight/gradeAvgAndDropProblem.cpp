@@ -24,21 +24,16 @@ int main()
     cout << fixed << showpoint << setprecision(1);
 
     // Get the test scores from the user.
-    getTestScores(testScores, SIZE);
 
     // Get the total of the test scores.
-    total = getTotal(testScores, SIZE);
-
+   
     // Get the lowest test score.
-    lowestScore = getLowest(testScores, SIZE);
-
+   
     // Subtract the lowest score from the total.
-    total -= lowestScore;
-
+   
     // Calculate the average. Divide by 3 because
     // the lowest test score was dropped.
-    average = total / (SIZE - 1);
-
+   
     // Display the average.
     cout << "The average with the lowest score "
         << "dropped is " << average << ".\n";
