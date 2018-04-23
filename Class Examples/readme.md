@@ -9,3 +9,4 @@
  | [GeomCalc](/Class%20Examples/GeomCalc/geomCalc.cpp) | March 7, 2018 | Calculate the area of various shapes.|
  | [ReverseString](/Class%20Examples/ReverseString/reverseString.cpp) | April 2, 2018 | Take a string from user and reverse the string to check whether or not string is a palindrome. If the string is a palindrome then output to the user that the string is a palindrome. |
  | [HighTemps](/Class%20Examples/HighTemps/highTemps.cpp) | April 4, 2018 | Display average, max, min for high temps of various months. |
+ | [BubbleSortSearch](/Class%20Examples/BubbleSortSearch/bubbleSortSearch.cpp) | April 18, 2018 | Bubble sort program and some other stuff. |
