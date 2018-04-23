@@ -1,4 +1,4 @@
-# Find The All The Errors
+# Spot the Errors - Chapter 6 - Part 1
 
 Find all of the errors in the two examples below.
 **Do not correct the errors. Just find them.**

@@ -21,7 +21,7 @@ int main()
 }
 ```
 
-<!-- ### Solution
+### Solution
 ```c++
 #include <iostream> // First Error
 using namespace std;
@@ -39,4 +39,4 @@ int main()
 
   return 0;
 }
-``` -->
+```

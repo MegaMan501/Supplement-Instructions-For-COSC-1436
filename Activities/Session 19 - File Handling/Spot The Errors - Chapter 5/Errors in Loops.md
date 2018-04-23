@@ -1,4 +1,4 @@
-# Spot the Errors
+# Spot the Errors - Chapter 5
 
 ```c++
 // This program adds two numbers entered by the user.
@@ -21,7 +21,7 @@ int main()
     return 0;
 }
 ```
-<!--
+
 ### Solution
 ```c++
 // This program adds two numbers entered by the user.
@@ -52,4 +52,3 @@ int main()
     return 0;
 }
 ```
--->

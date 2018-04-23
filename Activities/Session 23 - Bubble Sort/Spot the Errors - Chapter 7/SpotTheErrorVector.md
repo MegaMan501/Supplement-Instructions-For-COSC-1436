@@ -1,4 +1,4 @@
-# Spot The Error - Vectors and Two Dimensional Arrays
+# Spot The Error - Chapter 7
 
 1. First Problem
 ```c++

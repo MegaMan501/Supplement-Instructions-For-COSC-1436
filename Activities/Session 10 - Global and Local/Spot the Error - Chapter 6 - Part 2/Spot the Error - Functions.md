@@ -1,4 +1,4 @@
-# Spot the Error - Functions
+# Spot the Error - Chapter 6 - Part 2
 
 Find all of the errors in each of the problems.
 Then correct at least 2 of the problems.
