@@ -100,7 +100,7 @@ void bubbleSort(int arr[], int size)
 		didSwap = false; // assume no swap
 
 		// Check all the remaining element from 0 to i
-		for (int j = 0; j < 1; j++)
+		for (int j = 0; j < i; j++)
 		{
 			if (arr[j] > arr[j + 1])
 			{
