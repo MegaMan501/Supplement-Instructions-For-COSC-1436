@@ -6,7 +6,6 @@ using namespace std;
 // Function prototypes
 void sortArray(int [], int);
 void showArray(const int [], int);
-void pause();
 
 int main()
 {
@@ -25,7 +24,7 @@ int main()
     cout << "The sorted values are:\n";
     showArray(values, SIZE);
 
-    pause();
+    system("PAUSE");
     return 0;
 }
 
@@ -68,12 +67,4 @@ void showArray(const int array[], int size)
        cout << array[count] << " ";
 
     cout << endl;
-}
-
-// A non-system dependent method to pause the console
-void pause()
-{
-	cout << "\n<Press ENTER to continue>";
-    cin.clear();
-    cin.ignore().get();
 }

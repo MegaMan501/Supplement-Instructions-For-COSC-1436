@@ -24,4 +24,5 @@
 | [Session 20](/Activities/Session%2020%20-%20Intro%20to%20Arrays) | Introduction to Arrays |
 | [Session 21](/Activities/Session%2021%20-%20More%20on%20Arrays) | More on Arrays |
 | [Session 22](/Activities/Session%2022%20-%20Additional%20Info%20on%20Arrays) | Additional Info on Arrays |
-| [Session 23](/Activities/Session%2023%20-%20Bubble%20Sort) | Bubble Sort and Vectors|
+| [Session 23](/Activities/Session%2023%20-%20Bubble%20Sort) | Bubble Sort and Vectors |
+| [Session 24](/Activities/Session%2024%20-%20Linear%20and%20Binary%20Search) | Linear and Binary Searching |
