@@ -14,7 +14,7 @@ const int EXP_SIZE = SIZE * 100;	// number of expriement
 void bubbleSort(int arr[], int size);
 void swap(int & a, int & b);
 void copyArray(const int s[], int t[], int size);
-int linearSearch(const int s[()], int e, int size);
+int linearSearch(const int s[], int e, int size);
 int binarySearch(const int s[], int e, int size);
 
 int main()
