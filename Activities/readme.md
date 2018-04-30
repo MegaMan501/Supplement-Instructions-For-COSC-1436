@@ -26,3 +26,4 @@
 | [Session 22](/Activities/Session%2022%20-%20Additional%20Info%20on%20Arrays) | Additional Info on Arrays |
 | [Session 23](/Activities/Session%2023%20-%20Bubble%20Sort) | Bubble Sort and Vectors |
 | [Session 24](/Activities/Session%2024%20-%20Linear%20and%20Binary%20Search) | Linear and Binary Searching |
+| [Session 25](/Activities/Session%2025%20-%20Structures) | Introduction to structures |
