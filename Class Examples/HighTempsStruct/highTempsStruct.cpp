@@ -1,6 +1,6 @@
 /******************************
 Name: Mohamed Rahaman
-Date: November 30, 2017
+Date: April 25, 2018
 File: main.cpp
 Description:
 Display average, min, max.
