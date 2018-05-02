@@ -10,3 +10,6 @@ The address operator `&` returns the memory address of a variable.
 [![IMAGE ALT TEXT HERE](https://lh3.googleusercontent.com/Ned_Tu_ge6GgJZ_lIO_5mieIEmjDpq9kfgD05wapmvzcInvT4qQMxhxq_hEazf8ZsqA=w300)](https://www.youtube.com/watch?v=Fa6S8Pz924k)
 
 Source: https://www.youtube.com/watch?v=Fa6S8Pz924k
+
+## More on Pointers
+[cplusplus.com](http://www.cplusplus.com/doc/tutorial/pointers/)
