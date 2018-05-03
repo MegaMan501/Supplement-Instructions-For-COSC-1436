@@ -3,52 +3,52 @@
 #include <iostream>
 #include <string>
 #include <cstdlib>
-using namespace std; 
+using namespace std;
 
-// Global Variables 
-const int SIZE = 10; 
+// Global Variables
+const int SIZE = 10;
 
-// Function Declarations 
-double* bubbleSortScorces(double s[], int size); 
-void displayArray(double s[], int size); 
+// Function Declarations
+double* bubbleSortScores(double s[], int size);
+void displayArray(double s[], int size);
 void pause();
 
 // Template Function
 template <class T>
-void Swap(T & a, T & b); 
+void Swap(T & a, T & b);
 
 int main()
 {
 	double scores[SIZE] = { 12.1, 34.1, 56.2, 78.2, 4.7,	// Unsorted Array
 							13.1, 4.1, 70.4, 98.2, 3.7 };
 	double * pScores = nullptr;								// Dynamically Sorted Array
-	
+
 	// Display Unsorted Array
 	displayArray(scores, SIZE);
-	
+
 	// New Dynamic Array
-	pScores = bubbleSortScorces(scores, SIZE); 
+	pScores = bubbleSortScores(scores, SIZE);
 
 	// Display Sorted Array
-	displayArray(pScores, SIZE); 
+	displayArray(pScores, SIZE);
 
-	delete[] pScores; 
-	pScores = nullptr; 
-	
+	delete[] pScores;
+	pScores = nullptr;
+
 	// Pause the Screen
-	pause(); 
-	return 0; 
+	pause();
+	return 0;
 }
 
 // Sort a new dynamically created array
-double * bubbleSortScorces(double s[], int size)
+double * bubbleSortScores(double s[], int size)
 {
 	double * pS = new double[size];
-	bool didSwap; 
-	
+	bool didSwap;
+
 	for (int i = 0; i < size; i++)
 	{
-		pS[i] = s[i]; 
+		pS[i] = s[i];
 	}
 
 	for (int i = 0; i < (size - 1); i++)
@@ -59,12 +59,12 @@ double * bubbleSortScorces(double s[], int size)
 		{
 			if (pS[j] < pS[j+1])
 			{
-				Swap<double>(pS[j], pS[j + 1]); 
-				didSwap = true; 
+				Swap<double>(pS[j], pS[j + 1]);
+				didSwap = true;
 			}
 		}
 
-		if (!didSwap) break; 
+		if (!didSwap) break;
 	}
 
 	return pS;
@@ -73,29 +73,28 @@ double * bubbleSortScorces(double s[], int size)
 // Display the array
 void displayArray(double s[], int size)
 {
-	cout << "Array Values: "; 
+	cout << "Array Values: ";
 	for (int i = 0; i < size; i++)
 	{
-		cout << s[i] << " "; 
+		cout << s[i] << " ";
 	}
-	cout << endl; 
+	cout << endl;
 }
 
 // Pauses the array
 void pause()
 {
-	cout << endl; 
+	cout << endl;
 	cout << "Please Press Enter to Exit...";
 	while (getchar() != '\n');
 	cin.get();
 }
 
-// Swapping values 
-template <class T> 
+// Swapping values
+template <class T>
 void Swap(T & a, T & b)
 {
-	T c = a; 
-	a = b; 
-	b = c; 
+	T c = a;
+	a = b;
+	b = c;
 }
-
