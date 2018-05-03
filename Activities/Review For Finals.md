@@ -34,14 +34,15 @@ Chapter 7, 8, and 9 Review.
 5. Range-Base `for` Loop
 	- The `range-based` for loop is a loop that iterates once for each element in an array. Each time the loop iterates, it copies an element from the array to a variable. The range-based for loop was introduced in C++ 11.
 	- General Format:
-	```
-	for ( dataType rangeVariable : array )
-		statement;
-	```
-		- __dataType__ is the data type of the range variable. It must be the same as the data type of the array elements, or a type that the elements can automatically be converted to.
-		- __rangeVariable__ is the name of the range variable. This variable will receive the value of a different array element during each loop iteration. During the first loop iteration, it receives the value of the first element; during the second iteration, it receives the	value of the second element, and so forth.
-		- __array__ is the name of an array on which you wish the loop to operate. The loop will iterate once for every element in the array.
-		- __statement__ is a statement that executes during a loop iteration. If you need to execute more than one statement in the loop, enclose the statements in a set of braces.
+		```c++
+		for ( dataType rangeVariable : array )
+			statement;
+		```
+	- __dataType__ is the data type of the range variable. It must be the same as the data type of the array elements, or a type that the elements can automatically be converted to.
+	- __rangeVariable__ is the name of the range variable. This variable will receive the value of a different array element during each loop iteration. During the first loop iteration, it receives the value of the first element; during the second iteration, it receives the	value of the second element, and so forth.
+	- __array__ is the name of an array on which you wish the loop to operate. The loop will iterate once for every element in the array.
+	- __statement__ is a statement that executes during a loop iteration. If you need to execute more than one statement in the loop, enclose the statements in a set of braces.
+	
 	- Example:
 	```c++
 	int main()
