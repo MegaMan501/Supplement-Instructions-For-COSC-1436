@@ -1,6 +1,6 @@
 # Review for Finals:
 
-Chapter 7, 8, 9, and 11 Review.
+Chapter 7, 8, and 9 Review.
 
 ### Chapter 7: Arrays
 1. `int cats[80];`
